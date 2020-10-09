@@ -1,0 +1,1144 @@
+LImbalance of the dataset:
+  positive percentage 94.74%
+  negative percentage 5.26%
+
+
+
+
+(k=1)
+multi-threshold average TPR = 0.479
+multi-threshold average TNR = 0.021
+multi-threshold average PPV = 0.797
+multi-threshold average NPV = 0.001
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.000 	  0.836 	 0.383 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=2)
+multi-threshold average TPR = 0.489
+multi-threshold average TNR = 0.211
+multi-threshold average PPV = 0.829
+multi-threshold average NPV = 0.055
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.139 	 0.431 	 0.200 	  0.860 	 0.231 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.638 	  0.474   0.489  0.200  0.917   0.021 
+
+
+
+(k=3)
+multi-threshold average TPR = 0.500
+multi-threshold average TNR = 0.400
+multi-threshold average PPV = 0.864
+multi-threshold average NPV = 0.098
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.045 	 0.478 	 0.400 	  0.886 	 0.078 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.652 	  0.495   0.500  0.400  0.938   0.043 
+
+
+
+(k=4)
+multi-threshold average TPR = 0.511
+multi-threshold average TNR = 0.589
+multi-threshold average PPV = 0.902
+multi-threshold average NPV = 0.136
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.050 	 0.525 	 0.600 	  0.915 	 0.075 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.667 	  0.516   0.511  0.600  0.958   0.064 
+
+
+
+(k=5)
+multi-threshold average TPR = 0.521
+multi-threshold average TNR = 0.779
+multi-threshold average PPV = 0.945
+multi-threshold average NPV = 0.170
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.144 	 0.572 	 0.800 	  0.950 	 0.228 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.681 	  0.537   0.522  0.800  0.979   0.085 
+
+
+
+(k=6)
+multi-threshold average TPR = 0.532
+multi-threshold average TNR = 0.968
+multi-threshold average PPV = 0.998
+multi-threshold average NPV = 0.202
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 1.000 	  1.000 	 0.381 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=7)
+multi-threshold average TPR = 0.531
+multi-threshold average TNR = 0.958
+multi-threshold average PPV = 0.998
+multi-threshold average NPV = 0.178
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.989 	  0.999 	 0.370 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=8)
+multi-threshold average TPR = 0.530
+multi-threshold average TNR = 0.947
+multi-threshold average PPV = 0.997
+multi-threshold average NPV = 0.163
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.978 	  0.999 	 0.359 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=9)
+multi-threshold average TPR = 0.530
+multi-threshold average TNR = 0.937
+multi-threshold average PPV = 0.997
+multi-threshold average NPV = 0.151
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.967 	  0.998 	 0.348 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=10)
+multi-threshold average TPR = 0.529
+multi-threshold average TNR = 0.926
+multi-threshold average PPV = 0.996
+multi-threshold average NPV = 0.142
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.956 	  0.998 	 0.336 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=11)
+multi-threshold average TPR = 0.529
+multi-threshold average TNR = 0.916
+multi-threshold average PPV = 0.995
+multi-threshold average NPV = 0.134
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.944 	  0.997 	 0.325 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=12)
+multi-threshold average TPR = 0.528
+multi-threshold average TNR = 0.905
+multi-threshold average PPV = 0.995
+multi-threshold average NPV = 0.127
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.933 	  0.996 	 0.314 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=13)
+multi-threshold average TPR = 0.527
+multi-threshold average TNR = 0.895
+multi-threshold average PPV = 0.994
+multi-threshold average NPV = 0.121
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.922 	  0.996 	 0.303 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=14)
+multi-threshold average TPR = 0.527
+multi-threshold average TNR = 0.884
+multi-threshold average PPV = 0.994
+multi-threshold average NPV = 0.116
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.911 	  0.995 	 0.292 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=15)
+multi-threshold average TPR = 0.526
+multi-threshold average TNR = 0.874
+multi-threshold average PPV = 0.993
+multi-threshold average NPV = 0.111
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.900 	  0.994 	 0.281 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=16)
+multi-threshold average TPR = 0.526
+multi-threshold average TNR = 0.863
+multi-threshold average PPV = 0.992
+multi-threshold average NPV = 0.107
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.889 	  0.994 	 0.270 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=17)
+multi-threshold average TPR = 0.525
+multi-threshold average TNR = 0.853
+multi-threshold average PPV = 0.992
+multi-threshold average NPV = 0.103
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.878 	  0.993 	 0.259 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=18)
+multi-threshold average TPR = 0.525
+multi-threshold average TNR = 0.842
+multi-threshold average PPV = 0.991
+multi-threshold average NPV = 0.099
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.867 	  0.992 	 0.248 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=19)
+multi-threshold average TPR = 0.524
+multi-threshold average TNR = 0.832
+multi-threshold average PPV = 0.990
+multi-threshold average NPV = 0.095
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.856 	  0.992 	 0.236 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=20)
+multi-threshold average TPR = 0.523
+multi-threshold average TNR = 0.821
+multi-threshold average PPV = 0.990
+multi-threshold average NPV = 0.092
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.844 	  0.991 	 0.225 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=21)
+multi-threshold average TPR = 0.523
+multi-threshold average TNR = 0.811
+multi-threshold average PPV = 0.989
+multi-threshold average NPV = 0.089
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.833 	  0.990 	 0.214 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=22)
+multi-threshold average TPR = 0.522
+multi-threshold average TNR = 0.800
+multi-threshold average PPV = 0.988
+multi-threshold average NPV = 0.086
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.822 	  0.990 	 0.203 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=23)
+multi-threshold average TPR = 0.522
+multi-threshold average TNR = 0.789
+multi-threshold average PPV = 0.988
+multi-threshold average NPV = 0.083
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.811 	  0.989 	 0.192 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=24)
+multi-threshold average TPR = 0.521
+multi-threshold average TNR = 0.779
+multi-threshold average PPV = 0.987
+multi-threshold average NPV = 0.081
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.800 	  0.988 	 0.181 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=25)
+multi-threshold average TPR = 0.520
+multi-threshold average TNR = 0.768
+multi-threshold average PPV = 0.986
+multi-threshold average NPV = 0.078
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.789 	  0.988 	 0.170 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=26)
+multi-threshold average TPR = 0.520
+multi-threshold average TNR = 0.758
+multi-threshold average PPV = 0.985
+multi-threshold average NPV = 0.076
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.778 	  0.987 	 0.159 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=27)
+multi-threshold average TPR = 0.519
+multi-threshold average TNR = 0.747
+multi-threshold average PPV = 0.985
+multi-threshold average NPV = 0.073
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.767 	  0.986 	 0.148 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=28)
+multi-threshold average TPR = 0.519
+multi-threshold average TNR = 0.737
+multi-threshold average PPV = 0.984
+multi-threshold average NPV = 0.071
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.756 	  0.985 	 0.136 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=29)
+multi-threshold average TPR = 0.518
+multi-threshold average TNR = 0.726
+multi-threshold average PPV = 0.983
+multi-threshold average NPV = 0.069
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.744 	  0.985 	 0.125 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=30)
+multi-threshold average TPR = 0.518
+multi-threshold average TNR = 0.716
+multi-threshold average PPV = 0.982
+multi-threshold average NPV = 0.067
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.733 	  0.984 	 0.114 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=31)
+multi-threshold average TPR = 0.517
+multi-threshold average TNR = 0.705
+multi-threshold average PPV = 0.982
+multi-threshold average NPV = 0.065
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.722 	  0.983 	 0.103 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=32)
+multi-threshold average TPR = 0.516
+multi-threshold average TNR = 0.695
+multi-threshold average PPV = 0.981
+multi-threshold average NPV = 0.063
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.711 	  0.982 	 0.092 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=33)
+multi-threshold average TPR = 0.516
+multi-threshold average TNR = 0.684
+multi-threshold average PPV = 0.980
+multi-threshold average NPV = 0.061
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.700 	  0.981 	 0.081 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=34)
+multi-threshold average TPR = 0.515
+multi-threshold average TNR = 0.674
+multi-threshold average PPV = 0.979
+multi-threshold average NPV = 0.060
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.689 	  0.981 	 0.070 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=35)
+multi-threshold average TPR = 0.515
+multi-threshold average TNR = 0.663
+multi-threshold average PPV = 0.979
+multi-threshold average NPV = 0.058
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.678 	  0.980 	 0.059 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=36)
+multi-threshold average TPR = 0.514
+multi-threshold average TNR = 0.653
+multi-threshold average PPV = 0.978
+multi-threshold average NPV = 0.056
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.667 	  0.979 	 0.048 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=37)
+multi-threshold average TPR = 0.513
+multi-threshold average TNR = 0.642
+multi-threshold average PPV = 0.977
+multi-threshold average NPV = 0.055
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.656 	  0.978 	 0.036 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=38)
+multi-threshold average TPR = 0.513
+multi-threshold average TNR = 0.632
+multi-threshold average PPV = 0.976
+multi-threshold average NPV = 0.053
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.644 	  0.977 	 0.025 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=39)
+multi-threshold average TPR = 0.512
+multi-threshold average TNR = 0.621
+multi-threshold average PPV = 0.975
+multi-threshold average NPV = 0.052
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.633 	  0.976 	 0.014 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=40)
+multi-threshold average TPR = 0.512
+multi-threshold average TNR = 0.611
+multi-threshold average PPV = 0.974
+multi-threshold average NPV = 0.050
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.622 	  0.975 	 0.003 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=41)
+multi-threshold average TPR = 0.511
+multi-threshold average TNR = 0.600
+multi-threshold average PPV = 0.973
+multi-threshold average NPV = 0.049
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.611 	  0.974 	 0.008 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=42)
+multi-threshold average TPR = 0.511
+multi-threshold average TNR = 0.589
+multi-threshold average PPV = 0.972
+multi-threshold average NPV = 0.047
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.600 	  0.974 	 0.019 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=43)
+multi-threshold average TPR = 0.510
+multi-threshold average TNR = 0.579
+multi-threshold average PPV = 0.971
+multi-threshold average NPV = 0.046
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.589 	  0.973 	 0.030 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=44)
+multi-threshold average TPR = 0.509
+multi-threshold average TNR = 0.568
+multi-threshold average PPV = 0.970
+multi-threshold average NPV = 0.045
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.578 	  0.972 	 0.041 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=45)
+multi-threshold average TPR = 0.509
+multi-threshold average TNR = 0.558
+multi-threshold average PPV = 0.969
+multi-threshold average NPV = 0.043
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.567 	  0.971 	 0.052 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=46)
+multi-threshold average TPR = 0.508
+multi-threshold average TNR = 0.547
+multi-threshold average PPV = 0.968
+multi-threshold average NPV = 0.042
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.556 	  0.970 	 0.064 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=47)
+multi-threshold average TPR = 0.508
+multi-threshold average TNR = 0.537
+multi-threshold average PPV = 0.967
+multi-threshold average NPV = 0.041
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.544 	  0.969 	 0.075 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=48)
+multi-threshold average TPR = 0.507
+multi-threshold average TNR = 0.526
+multi-threshold average PPV = 0.966
+multi-threshold average NPV = 0.040
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.238 	 0.619 	 0.533 	  0.968 	 0.086 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.696 	  0.558   0.533  1.000  1.000   0.106 
+
+
+
+(k=49)
+multi-threshold average TPR = 0.506
+multi-threshold average TNR = 0.516
+multi-threshold average PPV = 0.965
+multi-threshold average NPV = 0.038
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.144 	 0.572 	 0.522 	  0.967 	 0.050 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.681 	  0.537   0.522  0.800  0.979   0.085 
+
+
+
+(k=50)
+multi-threshold average TPR = 0.506
+multi-threshold average TNR = 0.505
+multi-threshold average PPV = 0.964
+multi-threshold average NPV = 0.037
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+0.050 	 0.525 	 0.511 	  0.965 	 0.014 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.667 	  0.516   0.511  0.600  0.958   0.064 
+
+
+
+(k=51)
+multi-threshold average TPR = 0.505
+multi-threshold average TNR = 0.495
+multi-threshold average PPV = 0.963
+multi-threshold average NPV = 0.036
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.045 	 0.478 	 0.500 	  0.964 	 0.022 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.652 	  0.495   0.500  0.400  0.938   0.043 
+
+
+
+(k=52)
+multi-threshold average TPR = 0.505
+multi-threshold average TNR = 0.484
+multi-threshold average PPV = 0.962
+multi-threshold average NPV = 0.035
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.139 	 0.431 	 0.489 	  0.963 	 0.058 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.638 	  0.474   0.489  0.200  0.917   0.021 
+
+
+
+(k=53)
+multi-threshold average TPR = 0.504
+multi-threshold average TNR = 0.474
+multi-threshold average PPV = 0.961
+multi-threshold average NPV = 0.034
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.478 	  0.962 	 0.094 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=54)
+multi-threshold average TPR = 0.504
+multi-threshold average TNR = 0.463
+multi-threshold average PPV = 0.960
+multi-threshold average NPV = 0.033
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.467 	  0.961 	 0.083 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=55)
+multi-threshold average TPR = 0.503
+multi-threshold average TNR = 0.453
+multi-threshold average PPV = 0.959
+multi-threshold average NPV = 0.032
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.456 	  0.960 	 0.072 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=56)
+multi-threshold average TPR = 0.502
+multi-threshold average TNR = 0.442
+multi-threshold average PPV = 0.957
+multi-threshold average NPV = 0.031
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.444 	  0.958 	 0.061 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=57)
+multi-threshold average TPR = 0.502
+multi-threshold average TNR = 0.432
+multi-threshold average PPV = 0.956
+multi-threshold average NPV = 0.030
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.433 	  0.957 	 0.050 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=58)
+multi-threshold average TPR = 0.501
+multi-threshold average TNR = 0.421
+multi-threshold average PPV = 0.955
+multi-threshold average NPV = 0.029
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.422 	  0.956 	 0.039 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=59)
+multi-threshold average TPR = 0.501
+multi-threshold average TNR = 0.411
+multi-threshold average PPV = 0.954
+multi-threshold average NPV = 0.028
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.411 	  0.955 	 0.028 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=60)
+multi-threshold average TPR = 0.500
+multi-threshold average TNR = 0.400
+multi-threshold average PPV = 0.952
+multi-threshold average NPV = 0.027
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.400 	  0.953 	 0.017 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=61)
+multi-threshold average TPR = 0.499
+multi-threshold average TNR = 0.389
+multi-threshold average PPV = 0.951
+multi-threshold average NPV = 0.026
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.389 	  0.952 	 0.006 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=62)
+multi-threshold average TPR = 0.499
+multi-threshold average TNR = 0.379
+multi-threshold average PPV = 0.949
+multi-threshold average NPV = 0.025
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.378 	  0.951 	 0.006 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=63)
+multi-threshold average TPR = 0.498
+multi-threshold average TNR = 0.368
+multi-threshold average PPV = 0.948
+multi-threshold average NPV = 0.024
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.367 	  0.949 	 0.017 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=64)
+multi-threshold average TPR = 0.498
+multi-threshold average TNR = 0.358
+multi-threshold average PPV = 0.946
+multi-threshold average NPV = 0.023
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.356 	  0.948 	 0.028 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=65)
+multi-threshold average TPR = 0.497
+multi-threshold average TNR = 0.347
+multi-threshold average PPV = 0.945
+multi-threshold average NPV = 0.023
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.344 	  0.946 	 0.039 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=66)
+multi-threshold average TPR = 0.496
+multi-threshold average TNR = 0.337
+multi-threshold average PPV = 0.943
+multi-threshold average NPV = 0.022
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.333 	  0.945 	 0.050 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=67)
+multi-threshold average TPR = 0.496
+multi-threshold average TNR = 0.326
+multi-threshold average PPV = 0.942
+multi-threshold average NPV = 0.021
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.322 	  0.943 	 0.061 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=68)
+multi-threshold average TPR = 0.495
+multi-threshold average TNR = 0.316
+multi-threshold average PPV = 0.940
+multi-threshold average NPV = 0.020
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.311 	  0.941 	 0.072 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=69)
+multi-threshold average TPR = 0.495
+multi-threshold average TNR = 0.305
+multi-threshold average PPV = 0.938
+multi-threshold average NPV = 0.019
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.300 	  0.940 	 0.083 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=70)
+multi-threshold average TPR = 0.494
+multi-threshold average TNR = 0.295
+multi-threshold average PPV = 0.936
+multi-threshold average NPV = 0.019
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.289 	  0.938 	 0.094 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=71)
+multi-threshold average TPR = 0.494
+multi-threshold average TNR = 0.284
+multi-threshold average PPV = 0.934
+multi-threshold average NPV = 0.018
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.278 	  0.936 	 0.106 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=72)
+multi-threshold average TPR = 0.493
+multi-threshold average TNR = 0.274
+multi-threshold average PPV = 0.932
+multi-threshold average NPV = 0.017
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.267 	  0.934 	 0.117 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=73)
+multi-threshold average TPR = 0.492
+multi-threshold average TNR = 0.263
+multi-threshold average PPV = 0.930
+multi-threshold average NPV = 0.016
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.256 	  0.932 	 0.128 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=74)
+multi-threshold average TPR = 0.492
+multi-threshold average TNR = 0.253
+multi-threshold average PPV = 0.928
+multi-threshold average NPV = 0.015
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.244 	  0.930 	 0.139 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=75)
+multi-threshold average TPR = 0.491
+multi-threshold average TNR = 0.242
+multi-threshold average PPV = 0.926
+multi-threshold average NPV = 0.015
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.233 	  0.928 	 0.150 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=76)
+multi-threshold average TPR = 0.491
+multi-threshold average TNR = 0.232
+multi-threshold average PPV = 0.924
+multi-threshold average NPV = 0.014
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.222 	  0.926 	 0.161 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=77)
+multi-threshold average TPR = 0.490
+multi-threshold average TNR = 0.221
+multi-threshold average PPV = 0.921
+multi-threshold average NPV = 0.013
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.211 	  0.924 	 0.172 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=78)
+multi-threshold average TPR = 0.489
+multi-threshold average TNR = 0.211
+multi-threshold average PPV = 0.919
+multi-threshold average NPV = 0.013
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.200 	  0.921 	 0.183 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=79)
+multi-threshold average TPR = 0.489
+multi-threshold average TNR = 0.200
+multi-threshold average PPV = 0.916
+multi-threshold average NPV = 0.012
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.189 	  0.919 	 0.194 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=80)
+multi-threshold average TPR = 0.488
+multi-threshold average TNR = 0.189
+multi-threshold average PPV = 0.913
+multi-threshold average NPV = 0.011
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.178 	  0.916 	 0.206 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=81)
+multi-threshold average TPR = 0.488
+multi-threshold average TNR = 0.179
+multi-threshold average PPV = 0.911
+multi-threshold average NPV = 0.010
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.167 	  0.913 	 0.217 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=82)
+multi-threshold average TPR = 0.487
+multi-threshold average TNR = 0.168
+multi-threshold average PPV = 0.907
+multi-threshold average NPV = 0.010
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.156 	  0.911 	 0.228 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=83)
+multi-threshold average TPR = 0.487
+multi-threshold average TNR = 0.158
+multi-threshold average PPV = 0.904
+multi-threshold average NPV = 0.009
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.144 	  0.908 	 0.239 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=84)
+multi-threshold average TPR = 0.486
+multi-threshold average TNR = 0.147
+multi-threshold average PPV = 0.901
+multi-threshold average NPV = 0.008
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.133 	  0.904 	 0.250 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=85)
+multi-threshold average TPR = 0.485
+multi-threshold average TNR = 0.137
+multi-threshold average PPV = 0.897
+multi-threshold average NPV = 0.008
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.122 	  0.901 	 0.261 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=86)
+multi-threshold average TPR = 0.485
+multi-threshold average TNR = 0.126
+multi-threshold average PPV = 0.893
+multi-threshold average NPV = 0.007
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.111 	  0.897 	 0.272 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=87)
+multi-threshold average TPR = 0.484
+multi-threshold average TNR = 0.116
+multi-threshold average PPV = 0.888
+multi-threshold average NPV = 0.007
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.100 	  0.894 	 0.283 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=88)
+multi-threshold average TPR = 0.484
+multi-threshold average TNR = 0.105
+multi-threshold average PPV = 0.883
+multi-threshold average NPV = 0.006
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.089 	  0.890 	 0.294 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=89)
+multi-threshold average TPR = 0.483
+multi-threshold average TNR = 0.095
+multi-threshold average PPV = 0.878
+multi-threshold average NPV = 0.005
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.078 	  0.885 	 0.306 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=90)
+multi-threshold average TPR = 0.482
+multi-threshold average TNR = 0.084
+multi-threshold average PPV = 0.872
+multi-threshold average NPV = 0.005
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.067 	  0.880 	 0.317 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=91)
+multi-threshold average TPR = 0.482
+multi-threshold average TNR = 0.074
+multi-threshold average PPV = 0.865
+multi-threshold average NPV = 0.004
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.056 	  0.875 	 0.328 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=92)
+multi-threshold average TPR = 0.481
+multi-threshold average TNR = 0.063
+multi-threshold average PPV = 0.857
+multi-threshold average NPV = 0.003
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.044 	  0.869 	 0.339 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=93)
+multi-threshold average TPR = 0.481
+multi-threshold average TNR = 0.053
+multi-threshold average PPV = 0.848
+multi-threshold average NPV = 0.003
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.033 	  0.863 	 0.350 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=94)
+multi-threshold average TPR = 0.480
+multi-threshold average TNR = 0.042
+multi-threshold average PPV = 0.837
+multi-threshold average NPV = 0.002
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.022 	  0.855 	 0.361 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 
+
+
+
+(k=95)
+multi-threshold average TPR = 0.480
+multi-threshold average TNR = 0.032
+multi-threshold average PPV = 0.821
+multi-threshold average NPV = 0.002
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC)
+-0.233 	 0.383 	 0.011 	  0.847 	 0.372 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.623 	  0.453   0.478  0.000  0.896   0.000 

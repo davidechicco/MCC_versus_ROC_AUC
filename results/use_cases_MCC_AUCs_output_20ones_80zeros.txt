@@ -1,0 +1,2122 @@
+L  number_of_ones 20
+  number_of_zeros 80
+Imbalance of the dataset:
+  positive percentage 20.00%
+  negative percentage 80.00%
+
+
+
+=== === === ===
+(k=1)***
+
+ predictor: 0.010, 0.020, 0.030, ...,  0.980, 0.990, 1.000
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.105    0.395     0.022     0.479
+std.dev    0.248    0.327     0.052     0.296
+median     0.000    0.369     0.000     0.600
+min        0.000    0.000     0.000     0.000
+max        1.000    0.988     0.200     0.798
+
+delta(ROC, normMCC) = 0.245
+delta(PR, normMCC) = 0.138
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.000 	  0.107 	 0.245 	 0.138 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=2)
+
+ predictor: 0.020, 0.030, 0.040, ...,  0.990, 1.000, 0.010
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.115    0.398     0.025     0.515
+std.dev    0.263    0.324     0.055     0.260
+median     0.000    0.369     0.000     0.608
+min        0.000    0.000     0.000     0.048
+max        1.000    0.988     0.202     1.000
+
+delta(ROC, normMCC) = 0.232
+delta(PR, normMCC) = 0.136
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.012 	  0.109 	 0.232 	 0.136 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=3)
+
+ predictor: 0.030, 0.040, 0.050, ...,  1.000, 0.010, 0.020
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.125    0.400     0.027     0.542
+std.dev    0.277    0.321     0.059     0.239
+median     0.000    0.369     0.000     0.623
+min        0.000    0.000     0.000     0.091
+max        1.000    0.988     0.204     1.000
+
+delta(ROC, normMCC) = 0.220
+delta(PR, normMCC) = 0.135
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.025 	  0.110 	 0.220 	 0.135 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=4)
+
+ predictor: 0.040, 0.050, 0.060, ...,  0.010, 0.020, 0.030
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.135    0.402     0.029     0.564
+std.dev    0.290    0.318     0.062     0.225
+median     0.000    0.369     0.000     0.630
+min        0.000    0.000     0.000     0.130
+max        1.000    0.988     0.206     1.000
+
+delta(ROC, normMCC) = 0.207
+delta(PR, normMCC) = 0.134
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.037 	  0.111 	 0.207 	 0.134 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=5)
+
+ predictor: 0.050, 0.060, 0.070, ...,  0.020, 0.030, 0.040
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.145    0.405     0.032     0.583
+std.dev    0.303    0.315     0.064     0.213
+median     0.000    0.369     0.000     0.643
+min        0.000    0.000     0.000     0.167
+max        1.000    0.988     0.208     1.000
+
+delta(ROC, normMCC) = 0.195
+delta(PR, normMCC) = 0.133
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.050 	  0.112 	 0.195 	 0.133 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=6)
+
+ predictor: 0.060, 0.070, 0.080, ...,  0.030, 0.040, 0.050
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.155    0.408     0.034     0.600
+std.dev    0.314    0.312     0.067     0.204
+median     0.000    0.369     0.000     0.649
+min        0.000    0.000     0.000     0.200
+max        1.000    0.988     0.211     1.000
+
+delta(ROC, normMCC) = 0.182
+delta(PR, normMCC) = 0.131
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.062 	  0.114 	 0.182 	 0.131 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=7)
+
+ predictor: 0.070, 0.080, 0.090, ...,  0.040, 0.050, 0.060
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.165    0.410     0.036     0.616
+std.dev    0.325    0.309     0.070     0.196
+median     0.000    0.369     0.000     0.661
+min        0.000    0.000     0.000     0.231
+max        1.000    0.988     0.213     1.000
+
+delta(ROC, normMCC) = 0.170
+delta(PR, normMCC) = 0.130
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.075 	  0.115 	 0.170 	 0.130 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=8)
+
+ predictor: 0.080, 0.090, 0.100, ...,  0.050, 0.060, 0.070
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.175    0.412     0.039     0.630
+std.dev    0.335    0.307     0.072     0.190
+median     0.000    0.369     0.000     0.667
+min        0.000    0.000     0.000     0.259
+max        1.000    0.988     0.215     1.000
+
+delta(ROC, normMCC) = 0.157
+delta(PR, normMCC) = 0.129
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.088 	  0.116 	 0.157 	 0.129 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=9)
+
+ predictor: 0.090, 0.100, 0.110, ...,  0.060, 0.070, 0.080
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.185    0.415     0.041     0.643
+std.dev    0.345    0.304     0.075     0.184
+median     0.000    0.369     0.000     0.672
+min        0.000    0.000     0.000     0.286
+max        1.000    0.988     0.217     1.000
+
+delta(ROC, normMCC) = 0.145
+delta(PR, normMCC) = 0.127
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.100 	  0.118 	 0.145 	 0.127 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=10)
+
+ predictor: 0.100, 0.110, 0.120, ...,  0.070, 0.080, 0.090
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.195    0.418     0.044     0.655
+std.dev    0.354    0.301     0.077     0.180
+median     0.000    0.369     0.000     0.683
+min        0.000    0.000     0.000     0.310
+max        1.000    0.988     0.220     1.000
+
+delta(ROC, normMCC) = 0.132
+delta(PR, normMCC) = 0.126
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.113 	  0.119 	 0.132 	 0.126 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=11)
+
+ predictor: 0.110, 0.120, 0.130, ...,  0.080, 0.090, 0.100
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.205    0.420     0.046     0.667
+std.dev    0.362    0.299     0.079     0.176
+median     0.000    0.369     0.000     0.688
+min        0.000    0.000     0.000     0.333
+max        1.000    0.988     0.222     1.000
+
+delta(ROC, normMCC) = 0.120
+delta(PR, normMCC) = 0.125
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.125 	  0.120 	 0.120 	 0.125 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=12)
+
+ predictor: 0.120, 0.130, 0.140, ...,  0.090, 0.100, 0.110
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.215    0.422     0.049     0.678
+std.dev    0.370    0.296     0.082     0.172
+median     0.000    0.369     0.000     0.692
+min        0.000    0.000     0.000     0.355
+max        1.000    0.988     0.225     1.000
+
+delta(ROC, normMCC) = 0.107
+delta(PR, normMCC) = 0.123
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.137 	  0.122 	 0.107 	 0.123 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=13)
+
+ predictor: 0.130, 0.140, 0.150, ...,  0.100, 0.110, 0.120
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.225    0.425     0.051     0.688
+std.dev    0.378    0.294     0.084     0.169
+median     0.000    0.369     0.000     0.701
+min        0.000    0.000     0.000     0.375
+max        1.000    0.988     0.227     1.000
+
+delta(ROC, normMCC) = 0.095
+delta(PR, normMCC) = 0.122
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.150 	  0.123 	 0.095 	 0.122 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=14)
+
+ predictor: 0.140, 0.150, 0.160, ...,  0.110, 0.120, 0.130
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.235    0.428     0.054     0.697
+std.dev    0.385    0.292     0.086     0.166
+median     0.000    0.369     0.000     0.706
+min        0.000    0.000     0.000     0.394
+max        1.000    0.988     0.230     1.000
+
+delta(ROC, normMCC) = 0.082
+delta(PR, normMCC) = 0.120
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.162 	  0.125 	 0.082 	 0.120 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=15)
+
+ predictor: 0.150, 0.160, 0.170, ...,  0.120, 0.130, 0.140
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.245    0.430     0.056     0.707
+std.dev    0.391    0.289     0.088     0.163
+median     0.000    0.369     0.000     0.710
+min        0.000    0.000     0.000     0.412
+max        1.000    0.988     0.233     1.000
+
+delta(ROC, normMCC) = 0.070
+delta(PR, normMCC) = 0.118
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.175 	  0.127 	 0.070 	 0.118 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=16)
+
+ predictor: 0.160, 0.170, 0.180, ...,  0.130, 0.140, 0.150
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.255    0.432     0.059     0.715
+std.dev    0.398    0.287     0.090     0.161
+median     0.000    0.369     0.000     0.714
+min        0.000    0.000     0.000     0.429
+max        1.000    0.988     0.235     1.000
+
+delta(ROC, normMCC) = 0.057
+delta(PR, normMCC) = 0.117
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.188 	  0.128 	 0.057 	 0.117 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=17)
+
+ predictor: 0.170, 0.180, 0.190, ...,  0.140, 0.150, 0.160
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.265    0.435     0.062     0.724
+std.dev    0.404    0.285     0.092     0.159
+median     0.000    0.369     0.000     0.722
+min        0.000    0.000     0.000     0.444
+max        1.000    0.988     0.238     1.000
+
+delta(ROC, normMCC) = 0.045
+delta(PR, normMCC) = 0.115
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.200 	  0.130 	 0.045 	 0.115 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=18)
+
+ predictor: 0.180, 0.190, 0.200, ...,  0.150, 0.160, 0.170
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.275    0.438     0.065     0.732
+std.dev    0.410    0.283     0.093     0.157
+median     0.000    0.369     0.000     0.726
+min        0.000    0.000     0.000     0.459
+max        1.000    0.988     0.241     1.000
+
+delta(ROC, normMCC) = 0.032
+delta(PR, normMCC) = 0.113
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.213 	  0.132 	 0.032 	 0.113 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=19)
+
+ predictor: 0.190, 0.200, 0.210, ...,  0.160, 0.170, 0.180
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.285    0.440     0.067     0.739
+std.dev    0.415    0.281     0.095     0.155
+median     0.000    0.369     0.000     0.730
+min        0.000    0.000     0.000     0.474
+max        1.000    0.988     0.244     1.000
+
+delta(ROC, normMCC) = 0.020
+delta(PR, normMCC) = 0.112
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.225 	  0.133 	 0.020 	 0.112 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=20)
+
+ predictor: 0.200, 0.210, 0.220, ...,  0.170, 0.180, 0.190
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.295    0.442     0.070     0.747
+std.dev    0.420    0.279     0.097     0.153
+median     0.000    0.369     0.000     0.733
+min        0.000    0.000     0.000     0.487
+max        1.000    0.988     0.247     1.000
+
+delta(ROC, normMCC) = 0.007
+delta(PR, normMCC) = 0.110
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.238 	  0.135 	 0.007 	 0.110 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=21)
+
+ predictor: 0.210, 0.220, 0.230, ...,  0.180, 0.190, 0.200
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.305    0.445     0.073     0.754
+std.dev    0.425    0.277     0.099     0.152
+median     0.000    0.369     0.000     0.740
+min        0.000    0.000     0.000     0.500
+max        1.000    0.988     0.250     1.000
+
+delta(ROC, normMCC) = 0.005
+delta(PR, normMCC) = 0.108
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.250 	  0.137 	 0.005 	 0.108 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=22)
+
+ predictor: 0.220, 0.230, 0.240, ...,  0.190, 0.200, 0.210
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.315    0.448     0.076     0.761
+std.dev    0.429    0.276     0.100     0.150
+median     0.000    0.369     0.000     0.744
+min        0.000    0.000     0.000     0.512
+max        1.000    0.988     0.253     1.000
+
+delta(ROC, normMCC) = 0.018
+delta(PR, normMCC) = 0.106
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.262 	  0.139 	 0.018 	 0.106 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=23)
+
+ predictor: 0.230, 0.240, 0.250, ...,  0.200, 0.210, 0.220
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.325    0.450     0.079     0.767
+std.dev    0.434    0.274     0.102     0.149
+median     0.000    0.369     0.000     0.747
+min        0.000    0.000     0.000     0.524
+max        1.000    0.988     0.256     1.000
+
+delta(ROC, normMCC) = 0.030
+delta(PR, normMCC) = 0.104
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.275 	  0.141 	 0.030 	 0.104 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=24)
+
+ predictor: 0.240, 0.250, 0.260, ...,  0.210, 0.220, 0.230
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.335    0.452     0.082     0.774
+std.dev    0.438    0.272     0.104     0.148
+median     0.000    0.369     0.000     0.750
+min        0.000    0.000     0.000     0.535
+max        1.000    0.988     0.260     1.000
+
+delta(ROC, normMCC) = 0.043
+delta(PR, normMCC) = 0.102
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.288 	  0.143 	 0.043 	 0.102 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=25)
+
+ predictor: 0.250, 0.260, 0.270, ...,  0.220, 0.230, 0.240
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.345    0.455     0.085     0.780
+std.dev    0.441    0.271     0.105     0.146
+median     0.000    0.369     0.000     0.753
+min        0.000    0.000     0.000     0.545
+max        1.000    0.988     0.263     1.000
+
+delta(ROC, normMCC) = 0.055
+delta(PR, normMCC) = 0.100
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.300 	  0.145 	 0.055 	 0.100 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=26)
+
+ predictor: 0.260, 0.270, 0.280, ...,  0.230, 0.240, 0.250
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.355    0.458     0.088     0.786
+std.dev    0.445    0.270     0.107     0.145
+median     0.000    0.369     0.000     0.758
+min        0.000    0.000     0.000     0.556
+max        1.000    0.988     0.267     1.000
+
+delta(ROC, normMCC) = 0.068
+delta(PR, normMCC) = 0.098
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.312 	  0.147 	 0.068 	 0.098 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=27)
+
+ predictor: 0.270, 0.280, 0.290, ...,  0.240, 0.250, 0.260
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.365    0.460     0.091     0.792
+std.dev    0.448    0.268     0.108     0.144
+median     0.000    0.369     0.000     0.762
+min        0.000    0.000     0.000     0.565
+max        1.000    0.988     0.270     1.000
+
+delta(ROC, normMCC) = 0.080
+delta(PR, normMCC) = 0.096
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.325 	  0.149 	 0.080 	 0.096 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=28)
+
+ predictor: 0.280, 0.290, 0.300, ...,  0.250, 0.260, 0.270
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.375    0.462     0.094     0.798
+std.dev    0.451    0.267     0.110     0.143
+median     0.000    0.369     0.000     0.765
+min        0.000    0.000     0.000     0.574
+max        1.000    0.988     0.274     1.000
+
+delta(ROC, normMCC) = 0.093
+delta(PR, normMCC) = 0.093
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.338 	  0.152 	 0.093 	 0.093 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=29)
+
+ predictor: 0.290, 0.300, 0.310, ...,  0.260, 0.270, 0.280
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.385    0.465     0.097     0.803
+std.dev    0.453    0.266     0.111     0.141
+median     0.000    0.369     0.000     0.767
+min        0.000    0.000     0.000     0.583
+max        1.000    0.988     0.278     1.000
+
+delta(ROC, normMCC) = 0.105
+delta(PR, normMCC) = 0.091
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.350 	  0.154 	 0.105 	 0.091 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=30)
+
+ predictor: 0.300, 0.310, 0.320, ...,  0.270, 0.280, 0.290
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.395    0.467     0.101     0.809
+std.dev    0.456    0.265     0.113     0.140
+median     0.000    0.369     0.000     0.770
+min        0.000    0.000     0.000     0.592
+max        1.000    0.988     0.282     1.000
+
+delta(ROC, normMCC) = 0.118
+delta(PR, normMCC) = 0.089
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.510 	 0.245 	 0.363 	  0.156 	 0.118 	 0.089 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+
+=== === === ===
+(k=31)
+
+ predictor: 0.310, 0.320, 0.330, ...,  0.280, 0.290, 0.300
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.405    0.470     0.104     0.814
+std.dev    0.458    0.264     0.114     0.139
+median     0.025    0.375     0.010     0.773
+min        0.000    0.000     0.000     0.600
+max        1.000    0.988     0.286     1.000
+
+delta(ROC, normMCC) = 0.105
+delta(PR, normMCC) = 0.111
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.460 	 0.270 	 0.375 	  0.159 	 0.105 	 0.111 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.028 	  0.310   0.050  0.375  0.020   0.612 
+
+
+=== === === ===
+(k=32)
+
+ predictor: 0.320, 0.330, 0.340, ...,  0.290, 0.300, 0.310
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.415    0.472     0.107     0.819
+std.dev    0.460    0.263     0.116     0.138
+median     0.075    0.388     0.030     0.775
+min        0.000    0.000     0.000     0.608
+max        1.000    0.988     0.290     1.000
+
+delta(ROC, normMCC) = 0.093
+delta(PR, normMCC) = 0.134
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.410 	 0.295 	 0.387 	  0.161 	 0.093 	 0.134 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.056 	  0.330   0.100  0.388  0.039   0.633 
+
+
+=== === === ===
+(k=33)
+
+ predictor: 0.330, 0.340, 0.350, ...,  0.300, 0.310, 0.320
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.425    0.475     0.111     0.824
+std.dev    0.462    0.262     0.117     0.137
+median     0.125    0.400     0.049     0.780
+min        0.000    0.000     0.000     0.615
+max        1.000    0.988     0.294     1.000
+
+delta(ROC, normMCC) = 0.080
+delta(PR, normMCC) = 0.156
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.360 	 0.320 	 0.400 	  0.164 	 0.080 	 0.156 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.085 	  0.350   0.150  0.400  0.059   0.653 
+
+
+=== === === ===
+(k=34)
+
+ predictor: 0.340, 0.350, 0.360, ...,  0.310, 0.320, 0.330
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.435    0.478     0.114     0.829
+std.dev    0.463    0.262     0.118     0.136
+median     0.175    0.412     0.069     0.783
+min        0.000    0.000     0.000     0.623
+max        1.000    0.988     0.299     1.000
+
+delta(ROC, normMCC) = 0.068
+delta(PR, normMCC) = 0.178
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.310 	 0.345 	 0.412 	  0.167 	 0.068 	 0.178 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.113 	  0.370   0.200  0.412  0.078   0.673 
+
+
+=== === === ===
+(k=35)
+
+ predictor: 0.350, 0.360, 0.370, ...,  0.320, 0.330, 0.340
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.445    0.480     0.118     0.833
+std.dev    0.465    0.261     0.120     0.135
+median     0.225    0.425     0.089     0.785
+min        0.000    0.000     0.000     0.630
+max        1.000    0.988     0.303     1.000
+
+delta(ROC, normMCC) = 0.055
+delta(PR, normMCC) = 0.200
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.260 	 0.370 	 0.425 	  0.170 	 0.055 	 0.200 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.141 	  0.390   0.250  0.425  0.098   0.694 
+
+
+=== === === ===
+(k=36)
+
+ predictor: 0.360, 0.370, 0.380, ...,  0.330, 0.340, 0.350
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.455    0.482     0.122     0.838
+std.dev    0.466    0.260     0.121     0.133
+median     0.275    0.438     0.109     0.787
+min        0.000    0.000     0.000     0.636
+max        1.000    0.988     0.308     1.000
+
+delta(ROC, normMCC) = 0.043
+delta(PR, normMCC) = 0.222
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.210 	 0.395 	 0.438 	  0.173 	 0.043 	 0.222 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.169 	  0.410   0.300  0.438  0.118   0.714 
+
+
+=== === === ===
+(k=37)
+
+ predictor: 0.370, 0.380, 0.390, ...,  0.340, 0.350, 0.360
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.465    0.485     0.125     0.843
+std.dev    0.467    0.260     0.122     0.132
+median     0.325    0.450     0.129     0.789
+min        0.000    0.000     0.000     0.643
+max        1.000    0.988     0.312     1.000
+
+delta(ROC, normMCC) = 0.030
+delta(PR, normMCC) = 0.244
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.160 	 0.420 	 0.450 	  0.176 	 0.030 	 0.244 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.197 	  0.430   0.350  0.450  0.137   0.735 
+
+
+=== === === ===
+(k=38)
+
+ predictor: 0.380, 0.390, 0.400, ...,  0.350, 0.360, 0.370
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.475    0.488     0.129     0.847
+std.dev    0.467    0.260     0.123     0.131
+median     0.375    0.462     0.148     0.792
+min        0.000    0.000     0.000     0.649
+max        1.000    0.988     0.317     1.000
+
+delta(ROC, normMCC) = 0.018
+delta(PR, normMCC) = 0.266
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.110 	 0.445 	 0.462 	  0.179 	 0.018 	 0.266 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.225 	  0.450   0.400  0.462  0.157   0.755 
+
+
+=== === === ===
+(k=39)
+
+ predictor: 0.390, 0.400, 0.410, ...,  0.360, 0.370, 0.380
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.485    0.490     0.133     0.851
+std.dev    0.468    0.260     0.125     0.130
+median     0.425    0.475     0.168     0.794
+min        0.000    0.000     0.000     0.655
+max        1.000    0.988     0.323     1.000
+
+delta(ROC, normMCC) = 0.005
+delta(PR, normMCC) = 0.288
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.060 	 0.470 	 0.475 	  0.182 	 0.005 	 0.288 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.254 	  0.470   0.450  0.475  0.176   0.776 
+
+
+=== === === ===
+(k=40)
+
+ predictor: 0.400, 0.410, 0.420, ...,  0.370, 0.380, 0.390
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.495    0.492     0.137     0.855
+std.dev    0.468    0.259     0.126     0.129
+median     0.475    0.488     0.188     0.796
+min        0.000    0.000     0.000     0.661
+max        1.000    0.988     0.328     1.000
+
+delta(ROC, normMCC) = 0.007
+delta(PR, normMCC) = 0.309
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.010 	 0.495 	 0.488 	  0.186 	 0.007 	 0.309 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.282 	  0.490   0.500  0.488  0.196   0.796 
+
+
+=== === === ===
+(k=41)
+
+ predictor: 0.410, 0.420, 0.430, ...,  0.380, 0.390, 0.400
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.505    0.495     0.141     0.860
+std.dev    0.468    0.259     0.127     0.127
+median     0.525    0.500     0.200     0.800
+min        0.000    0.000     0.000     0.667
+max        1.000    0.988     0.333     1.000
+
+delta(ROC, normMCC) = 0.020
+delta(PR, normMCC) = 0.331
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.040 	 0.520 	 0.500 	  0.189 	 0.020 	 0.331 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.310 	  0.510   0.550  0.500  0.216   0.816 
+
+
+=== === === ===
+(k=42)
+
+ predictor: 0.420, 0.430, 0.440, ...,  0.390, 0.400, 0.410
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.515    0.498     0.145     0.864
+std.dev    0.468    0.260     0.128     0.126
+median     0.575    0.512     0.203     0.820
+min        0.000    0.000     0.000     0.672
+max        1.000    0.988     0.339     1.000
+
+delta(ROC, normMCC) = 0.033
+delta(PR, normMCC) = 0.352
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.090 	 0.545 	 0.512 	  0.193 	 0.033 	 0.352 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.338 	  0.530   0.600  0.512  0.235   0.837 
+
+
+=== === === ===
+(k=43)
+
+ predictor: 0.430, 0.440, 0.450, ...,  0.400, 0.410, 0.420
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.525    0.500     0.149     0.868
+std.dev    0.467    0.260     0.129     0.125
+median     0.625    0.525     0.205     0.840
+min        0.000    0.000     0.000     0.677
+max        1.000    0.988     0.345     1.000
+
+delta(ROC, normMCC) = 0.045
+delta(PR, normMCC) = 0.373
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.140 	 0.570 	 0.525 	  0.197 	 0.045 	 0.373 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.366 	  0.550   0.650  0.525  0.255   0.857 
+
+
+=== === === ===
+(k=44)
+
+ predictor: 0.440, 0.450, 0.460, ...,  0.410, 0.420, 0.430
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.535    0.502     0.154     0.872
+std.dev    0.467    0.260     0.131     0.124
+median     0.675    0.538     0.207     0.860
+min        0.000    0.000     0.000     0.683
+max        1.000    0.988     0.351     1.000
+
+delta(ROC, normMCC) = 0.058
+delta(PR, normMCC) = 0.394
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.190 	 0.595 	 0.538 	  0.201 	 0.058 	 0.394 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.394 	  0.570   0.700  0.538  0.275   0.878 
+
+
+=== === === ===
+(k=45)
+
+ predictor: 0.450, 0.460, 0.470, ...,  0.420, 0.430, 0.440
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.545    0.505     0.158     0.875
+std.dev    0.466    0.260     0.132     0.122
+median     0.725    0.550     0.209     0.880
+min        0.000    0.000     0.000     0.688
+max        1.000    0.988     0.357     1.000
+
+delta(ROC, normMCC) = 0.070
+delta(PR, normMCC) = 0.415
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.240 	 0.620 	 0.550 	  0.205 	 0.070 	 0.415 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.423 	  0.590   0.750  0.550  0.294   0.898 
+
+
+=== === === ===
+(k=46)
+
+ predictor: 0.460, 0.470, 0.480, ...,  0.430, 0.440, 0.450
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.555    0.507     0.162     0.879
+std.dev    0.465    0.261     0.133     0.121
+median     0.775    0.562     0.212     0.900
+min        0.000    0.000     0.000     0.692
+max        1.000    0.988     0.364     1.000
+
+delta(ROC, normMCC) = 0.083
+delta(PR, normMCC) = 0.436
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.290 	 0.645 	 0.562 	  0.209 	 0.083 	 0.436 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.451 	  0.610   0.800  0.562  0.314   0.918 
+
+
+=== === === ===
+(k=47)
+
+ predictor: 0.470, 0.480, 0.490, ...,  0.440, 0.450, 0.460
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.565    0.510     0.167     0.883
+std.dev    0.463    0.262     0.134     0.120
+median     0.825    0.575     0.214     0.920
+min        0.000    0.000     0.000     0.697
+max        1.000    0.988     0.370     1.000
+
+delta(ROC, normMCC) = 0.095
+delta(PR, normMCC) = 0.456
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.340 	 0.670 	 0.575 	  0.214 	 0.095 	 0.456 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.479 	  0.630   0.850  0.575  0.333   0.939 
+
+
+=== === === ===
+(k=48)
+
+ predictor: 0.480, 0.490, 0.500, ...,  0.450, 0.460, 0.470
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.575    0.512     0.172     0.886
+std.dev    0.462    0.262     0.135     0.118
+median     0.875    0.588     0.216     0.940
+min        0.000    0.000     0.000     0.701
+max        1.000    0.988     0.377     1.000
+
+delta(ROC, normMCC) = 0.108
+delta(PR, normMCC) = 0.477
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.390 	 0.695 	 0.588 	  0.218 	 0.108 	 0.477 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.507 	  0.650   0.900  0.588  0.353   0.959 
+
+
+=== === === ===
+(k=49)
+
+ predictor: 0.490, 0.500, 0.510, ...,  0.460, 0.470, 0.480
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.585    0.515     0.176     0.890
+std.dev    0.460    0.263     0.136     0.117
+median     0.925    0.600     0.220     0.960
+min        0.000    0.000     0.000     0.706
+max        1.000    0.988     0.385     1.000
+
+delta(ROC, normMCC) = 0.120
+delta(PR, normMCC) = 0.497
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.440 	 0.720 	 0.600 	  0.223 	 0.120 	 0.497 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.535 	  0.670   0.950  0.600  0.373   0.980 
+
+
+=== === === ===
+(k=50)^^^
+
+ predictor: 0.500, 0.510, 0.520, ...,  0.470, 0.480, 0.490
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.595    0.518     0.181     0.893
+std.dev    0.458    0.264     0.137     0.116
+median     0.975    0.612     0.223     0.980
+min        0.000    0.000     0.000     0.710
+max        1.000    0.988     0.392     1.000
+
+delta(ROC, normMCC) = 0.133
+delta(PR, normMCC) = 0.517
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	         0.612 	         0.228 	 0.133 	                                 0.517 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=51)^^^
+
+ predictor: 0.510, 0.520, 0.530, ...,  0.480, 0.490, 0.500
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.605    0.520     0.186     0.897
+std.dev    0.456    0.265     0.138     0.114
+median     1.000    0.619     0.226     1.000
+min        0.000    0.000     0.000     0.714
+max        1.000    0.988     0.400     1.000
+
+delta(ROC, normMCC) = 0.120
+delta(PR, normMCC) = 0.511
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.625 	  0.234 	 0.120 	 0.511 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=52)^^^
+
+ predictor: 0.520, 0.530, 0.540, ...,  0.490, 0.500, 0.510
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.615    0.522     0.192     0.900
+std.dev    0.453    0.266     0.140     0.113
+median     1.000    0.619     0.229     1.000
+min        0.000    0.000     0.000     0.718
+max        1.000    0.988     0.408     1.000
+
+delta(ROC, normMCC) = 0.108
+delta(PR, normMCC) = 0.506
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.638 	  0.239 	 0.108 	 0.506 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=53)
+
+ predictor: 0.530, 0.540, 0.550, ...,  0.500, 0.510, 0.520
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.625    0.525     0.197     0.904
+std.dev    0.451    0.267     0.141     0.111
+median     1.000    0.619     0.231     1.000
+min        0.000    0.000     0.000     0.722
+max        1.000    0.988     0.417     1.000
+
+delta(ROC, normMCC) = 0.095
+delta(PR, normMCC) = 0.500
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.650 	  0.245 	 0.095 	 0.500 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=54)
+
+ predictor: 0.540, 0.550, 0.560, ...,  0.510, 0.520, 0.530
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.635    0.528     0.202     0.907
+std.dev    0.448    0.268     0.142     0.110
+median     1.000    0.619     0.234     1.000
+min        0.000    0.000     0.000     0.726
+max        1.000    0.988     0.426     1.000
+
+delta(ROC, normMCC) = 0.083
+delta(PR, normMCC) = 0.493
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.662 	  0.252 	 0.083 	 0.493 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=55)
+
+ predictor: 0.550, 0.560, 0.570, ...,  0.520, 0.530, 0.540
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.645    0.530     0.208     0.910
+std.dev    0.445    0.270     0.143     0.108
+median     1.000    0.619     0.237     1.000
+min        0.000    0.000     0.000     0.730
+max        1.000    0.988     0.435     1.000
+
+delta(ROC, normMCC) = 0.070
+delta(PR, normMCC) = 0.487
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.675 	  0.258 	 0.070 	 0.487 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=56)
+
+ predictor: 0.560, 0.570, 0.580, ...,  0.530, 0.540, 0.550
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.655    0.532     0.214     0.913
+std.dev    0.441    0.271     0.144     0.107
+median     1.000    0.619     0.242     1.000
+min        0.000    0.000     0.000     0.733
+max        1.000    0.988     0.444     1.000
+
+delta(ROC, normMCC) = 0.058
+delta(PR, normMCC) = 0.480
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.688 	  0.265 	 0.058 	 0.480 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=57)
+
+ predictor: 0.570, 0.580, 0.590, ...,  0.540, 0.550, 0.560
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.665    0.535     0.220     0.916
+std.dev    0.438    0.272     0.146     0.105
+median     1.000    0.619     0.245     1.000
+min        0.000    0.000     0.000     0.737
+max        1.000    0.988     0.455     1.000
+
+delta(ROC, normMCC) = 0.045
+delta(PR, normMCC) = 0.472
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.700 	  0.273 	 0.045 	 0.472 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=58)
+
+ predictor: 0.580, 0.590, 0.600, ...,  0.550, 0.560, 0.570
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.675    0.538     0.226     0.919
+std.dev    0.434    0.274     0.147     0.104
+median     1.000    0.619     0.248     1.000
+min        0.000    0.000     0.000     0.740
+max        1.000    0.988     0.465     1.000
+
+delta(ROC, normMCC) = 0.033
+delta(PR, normMCC) = 0.465
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.712 	  0.280 	 0.033 	 0.465 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=59)
+
+ predictor: 0.590, 0.600, 0.610, ...,  0.560, 0.570, 0.580
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.685    0.540     0.232     0.922
+std.dev    0.429    0.276     0.148     0.102
+median     1.000    0.619     0.252     1.000
+min        0.000    0.000     0.000     0.744
+max        1.000    0.988     0.476     1.000
+
+delta(ROC, normMCC) = 0.020
+delta(PR, normMCC) = 0.456
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.725 	  0.289 	 0.020 	 0.456 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=60)
+
+ predictor: 0.600, 0.610, 0.620, ...,  0.570, 0.580, 0.590
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.695    0.542     0.239     0.925
+std.dev    0.425    0.277     0.150     0.100
+median     1.000    0.619     0.255     1.000
+min        0.000    0.000     0.000     0.747
+max        1.000    0.988     0.488     1.000
+
+delta(ROC, normMCC) = 0.008
+delta(PR, normMCC) = 0.448
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.738 	  0.297 	 0.008 	 0.448 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=61)
+
+ predictor: 0.610, 0.620, 0.630, ...,  0.580, 0.590, 0.600
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.705    0.545     0.246     0.928
+std.dev    0.420    0.279     0.151     0.098
+median     1.000    0.619     0.259     1.000
+min        0.000    0.000     0.000     0.750
+max        1.000    0.988     0.500     1.000
+
+delta(ROC, normMCC) = 0.005
+delta(PR, normMCC) = 0.438
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.750 	  0.307 	 0.005 	 0.438 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=62)
+
+ predictor: 0.620, 0.630, 0.640, ...,  0.590, 0.600, 0.610
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.715    0.548     0.253     0.931
+std.dev    0.415    0.281     0.153     0.097
+median     1.000    0.619     0.265     1.000
+min        0.000    0.000     0.000     0.753
+max        1.000    0.988     0.513     1.000
+
+delta(ROC, normMCC) = 0.017
+delta(PR, normMCC) = 0.428
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.762 	  0.317 	 0.017 	 0.428 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=63)
+
+ predictor: 0.630, 0.640, 0.650, ...,  0.600, 0.610, 0.620
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.725    0.550     0.260     0.934
+std.dev    0.410    0.283     0.154     0.095
+median     1.000    0.619     0.268     1.000
+min        0.000    0.000     0.000     0.756
+max        1.000    0.988     0.526     1.000
+
+delta(ROC, normMCC) = 0.030
+delta(PR, normMCC) = 0.418
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.775 	  0.328 	 0.030 	 0.418 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=64)
+
+ predictor: 0.640, 0.650, 0.660, ...,  0.610, 0.620, 0.630
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.735    0.552     0.268     0.937
+std.dev    0.404    0.285     0.156     0.093
+median     1.000    0.619     0.272     1.000
+min        0.000    0.000     0.000     0.759
+max        1.000    0.988     0.541     1.000
+
+delta(ROC, normMCC) = 0.042
+delta(PR, normMCC) = 0.406
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.788 	  0.339 	 0.042 	 0.406 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=65)
+
+ predictor: 0.650, 0.660, 0.670, ...,  0.620, 0.630, 0.640
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.745    0.555     0.276     0.940
+std.dev    0.398    0.287     0.158     0.091
+median     1.000    0.619     0.276     1.000
+min        0.000    0.000     0.000     0.762
+max        1.000    0.988     0.556     1.000
+
+delta(ROC, normMCC) = 0.055
+delta(PR, normMCC) = 0.394
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.800 	  0.351 	 0.055 	 0.394 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=66)
+
+ predictor: 0.660, 0.670, 0.680, ...,  0.630, 0.640, 0.650
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.755    0.558     0.284     0.942
+std.dev    0.391    0.289     0.160     0.089
+median     1.000    0.619     0.284     1.000
+min        0.000    0.000     0.000     0.765
+max        1.000    0.988     0.571     1.000
+
+delta(ROC, normMCC) = 0.067
+delta(PR, normMCC) = 0.381
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.812 	  0.365 	 0.067 	 0.381 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=67)
+
+ predictor: 0.670, 0.680, 0.690, ...,  0.640, 0.650, 0.660
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.765    0.560     0.293     0.945
+std.dev    0.385    0.292     0.163     0.087
+median     1.000    0.619     0.288     1.000
+min        0.000    0.000     0.000     0.767
+max        1.000    0.988     0.588     1.000
+
+delta(ROC, normMCC) = 0.080
+delta(PR, normMCC) = 0.366
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.825 	  0.379 	 0.080 	 0.366 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=68)
+
+ predictor: 0.680, 0.690, 0.700, ...,  0.650, 0.660, 0.670
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.775    0.562     0.302     0.948
+std.dev    0.378    0.294     0.165     0.085
+median     1.000    0.619     0.292     1.000
+min        0.000    0.000     0.000     0.770
+max        1.000    0.988     0.606     1.000
+
+delta(ROC, normMCC) = 0.092
+delta(PR, normMCC) = 0.351
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.838 	  0.394 	 0.092 	 0.351 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=69)
+
+ predictor: 0.690, 0.700, 0.710, ...,  0.660, 0.670, 0.680
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.785    0.565     0.311     0.950
+std.dev    0.370    0.296     0.168     0.083
+median     1.000    0.619     0.296     1.000
+min        0.000    0.000     0.000     0.773
+max        1.000    0.988     0.625     1.000
+
+delta(ROC, normMCC) = 0.105
+delta(PR, normMCC) = 0.334
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.850 	  0.412 	 0.105 	 0.334 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=70)
+
+ predictor: 0.700, 0.710, 0.720, ...,  0.670, 0.680, 0.690
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.795    0.568     0.321     0.953
+std.dev    0.362    0.299     0.171     0.081
+median     1.000    0.619     0.305     1.000
+min        0.000    0.000     0.000     0.775
+max        1.000    0.988     0.645     1.000
+
+delta(ROC, normMCC) = 0.117
+delta(PR, normMCC) = 0.315
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.862 	  0.430 	 0.117 	 0.315 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=71)
+
+ predictor: 0.710, 0.720, 0.730, ...,  0.680, 0.690, 0.700
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.805    0.570     0.332     0.955
+std.dev    0.354    0.301     0.175     0.078
+median     1.000    0.619     0.310     1.000
+min        0.000    0.000     0.000     0.778
+max        1.000    0.988     0.667     1.000
+
+delta(ROC, normMCC) = 0.130
+delta(PR, normMCC) = 0.294
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.875 	  0.451 	 0.130 	 0.294 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=72)
+
+ predictor: 0.720, 0.730, 0.740, ...,  0.690, 0.700, 0.710
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.815    0.572     0.343     0.958
+std.dev    0.345    0.304     0.179     0.076
+median     1.000    0.619     0.315     1.000
+min        0.000    0.000     0.000     0.780
+max        1.000    0.988     0.690     1.000
+
+delta(ROC, normMCC) = 0.142
+delta(PR, normMCC) = 0.272
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.888 	  0.473 	 0.142 	 0.272 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=73)
+
+ predictor: 0.730, 0.740, 0.750, ...,  0.700, 0.710, 0.720
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.825    0.575     0.355     0.960
+std.dev    0.335    0.307     0.184     0.073
+median     1.000    0.619     0.325     1.000
+min        0.000    0.000     0.000     0.783
+max        1.000    0.988     0.714     1.000
+
+delta(ROC, normMCC) = 0.155
+delta(PR, normMCC) = 0.246
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.900 	  0.499 	 0.155 	 0.246 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=74)
+
+ predictor: 0.740, 0.750, 0.760, ...,  0.710, 0.720, 0.730
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.835    0.578     0.368     0.963
+std.dev    0.325    0.309     0.190     0.071
+median     1.000    0.619     0.331     1.000
+min        0.000    0.000     0.000     0.785
+max        1.000    0.988     0.741     1.000
+
+delta(ROC, normMCC) = 0.167
+delta(PR, normMCC) = 0.218
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.912 	  0.528 	 0.167 	 0.218 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=75)
+
+ predictor: 0.750, 0.760, 0.770, ...,  0.720, 0.730, 0.740
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.845    0.580     0.382     0.965
+std.dev    0.314    0.312     0.196     0.068
+median     1.000    0.619     0.336     1.000
+min        0.000    0.000     0.000     0.787
+max        1.000    0.988     0.769     1.000
+
+delta(ROC, normMCC) = 0.180
+delta(PR, normMCC) = 0.185
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.925 	  0.560 	 0.180 	 0.185 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=76)
+
+ predictor: 0.760, 0.770, 0.780, ...,  0.730, 0.740, 0.750
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.855    0.582     0.398     0.968
+std.dev    0.303    0.315     0.204     0.065
+median     1.000    0.619     0.348     1.000
+min        0.000    0.000     0.000     0.789
+max        1.000    0.988     0.800     1.000
+
+delta(ROC, normMCC) = 0.192
+delta(PR, normMCC) = 0.147
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.938 	  0.598 	 0.192 	 0.147 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=77)
+
+ predictor: 0.770, 0.780, 0.790, ...,  0.740, 0.750, 0.760
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.865    0.585     0.415     0.970
+std.dev    0.290    0.318     0.213     0.062
+median     1.000    0.619     0.354     1.000
+min        0.000    0.000     0.000     0.792
+max        1.000    0.988     0.833     1.000
+
+delta(ROC, normMCC) = 0.205
+delta(PR, normMCC) = 0.103
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.950 	  0.642 	 0.205 	 0.103 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=78)
+
+ predictor: 0.780, 0.790, 0.800, ...,  0.750, 0.760, 0.770
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.875    0.588     0.434     0.972
+std.dev    0.277    0.321     0.225     0.059
+median     1.000    0.619     0.367     1.000
+min        0.000    0.000     0.000     0.794
+max        1.000    0.988     0.870     1.000
+
+delta(ROC, normMCC) = 0.217
+delta(PR, normMCC) = 0.051
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.962 	  0.694 	 0.217 	 0.051 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=79)
+
+ predictor: 0.790, 0.800, 0.810, ...,  0.760, 0.770, 0.780
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.885    0.590     0.455     0.975
+std.dev    0.263    0.324     0.240     0.056
+median     1.000    0.619     0.374     1.000
+min        0.000    0.000     0.000     0.796
+max        1.000    0.988     0.909     1.000
+
+delta(ROC, normMCC) = 0.230
+delta(PR, normMCC) = 0.015
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.975 	  0.760 	 0.230 	 0.015 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=80)***
+
+ predictor: 0.800, 0.810, 0.820, ...,  0.770, 0.780, 0.790
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.895    0.592     0.482     0.977
+std.dev    0.248    0.327     0.260     0.053
+median     1.000    0.619     0.388     1.000
+min        0.000    0.000     0.000     0.798
+max        1.000    0.988     0.952     1.000
+
+delta(ROC, normMCC) = 0.242
+delta(PR, normMCC) = 0.103
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	 0.988 	  0.848 	 0.242 	 0.103 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=81)***
+
+ predictor: 0.810, 0.820, 0.830, ...,  0.780, 0.790, 0.800
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.905    0.595     0.518     0.979
+std.dev    0.231    0.330     0.297     0.049
+median     1.000    0.619     0.396     1.000
+min        0.050    0.000     0.200     0.808
+max        1.000    1.000     1.000     1.000
+
+delta(ROC, normMCC) = 0.255
+delta(PR, normMCC) = 0.255
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.490 	 0.745 	         1.000 	     1.000 	 0.255 	                                         0.255 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+
+=== === === ===
+(k=82)
+
+ predictor: 0.820, 0.830, 0.840, ...,  0.790, 0.800, 0.810
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.865    0.585     0.502     0.929
+std.dev    0.214    0.333     0.297     0.120
+median     0.950    0.606     0.376     0.970
+min        0.050    0.000     0.192     0.000
+max        1.000    1.000     1.000     0.988
+
+delta(ROC, normMCC) = 0.230
+delta(PR, normMCC) = 0.240
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.440 	 0.720 	 0.950 	  0.960 	 0.230 	 0.240 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.535 	  0.670   0.950  0.600  0.373   0.980 
+
+
+=== === === ===
+(k=83)
+
+ predictor: 0.830, 0.840, 0.850, ...,  0.800, 0.810, 0.820
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.825    0.575     0.485     0.889
+std.dev    0.199    0.335     0.298     0.162
+median     0.900    0.594     0.356     0.943
+min        0.050    0.000     0.184     0.000
+max        1.000    1.000     1.000     0.976
+
+delta(ROC, normMCC) = 0.205
+delta(PR, normMCC) = 0.224
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.390 	 0.695 	 0.900 	  0.919 	 0.205 	 0.224 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.507 	  0.650   0.900  0.588  0.353   0.959 
+
+
+=== === === ===
+(k=84)
+
+ predictor: 0.840, 0.850, 0.860, ...,  0.810, 0.820, 0.830
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.785    0.565     0.468     0.854
+std.dev    0.184    0.337     0.298     0.192
+median     0.850    0.581     0.337     0.920
+min        0.050    0.000     0.175     0.000
+max        1.000    1.000     1.000     0.964
+
+delta(ROC, normMCC) = 0.180
+delta(PR, normMCC) = 0.208
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.340 	 0.670 	 0.850 	  0.878 	 0.180 	 0.208 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.479 	  0.630   0.850  0.575  0.333   0.939 
+
+
+=== === === ===
+(k=85)
+
+ predictor: 0.850, 0.860, 0.870, ...,  0.820, 0.830, 0.840
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.745    0.555     0.450     0.822
+std.dev    0.170    0.339     0.297     0.214
+median     0.800    0.569     0.317     0.899
+min        0.050    0.000     0.167     0.000
+max        1.000    1.000     1.000     0.952
+
+delta(ROC, normMCC) = 0.155
+delta(PR, normMCC) = 0.192
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.290 	 0.645 	 0.800 	  0.837 	 0.155 	 0.192 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.451 	  0.610   0.800  0.562  0.314   0.918 
+
+
+=== === === ===
+(k=86)
+
+ predictor: 0.860, 0.870, 0.880, ...,  0.830, 0.840, 0.850
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.705    0.545     0.432     0.792
+std.dev    0.158    0.340     0.296     0.231
+median     0.750    0.556     0.297     0.879
+min        0.050    0.000     0.158     0.000
+max        1.000    1.000     1.000     0.941
+
+delta(ROC, normMCC) = 0.130
+delta(PR, normMCC) = 0.175
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.240 	 0.620 	 0.750 	  0.795 	 0.130 	 0.175 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.423 	  0.590   0.750  0.550  0.294   0.898 
+
+
+=== === === ===
+(k=87)
+
+ predictor: 0.870, 0.880, 0.890, ...,  0.840, 0.850, 0.860
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.665    0.535     0.413     0.764
+std.dev    0.147    0.342     0.294     0.245
+median     0.700    0.544     0.277     0.860
+min        0.050    0.000     0.149     0.000
+max        1.000    1.000     1.000     0.930
+
+delta(ROC, normMCC) = 0.105
+delta(PR, normMCC) = 0.157
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.190 	 0.595 	 0.700 	  0.752 	 0.105 	 0.157 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.394 	  0.570   0.700  0.538  0.275   0.878 
+
+
+=== === === ===
+(k=88)
+
+ predictor: 0.880, 0.890, 0.900, ...,  0.850, 0.860, 0.870
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.625    0.525     0.394     0.738
+std.dev    0.139    0.342     0.292     0.256
+median     0.650    0.531     0.257     0.844
+min        0.050    0.000     0.140     0.000
+max        1.000    1.000     1.000     0.920
+
+delta(ROC, normMCC) = 0.080
+delta(PR, normMCC) = 0.140
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.140 	 0.570 	 0.650 	  0.710 	 0.080 	 0.140 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.366 	  0.550   0.650  0.525  0.255   0.857 
+
+
+=== === === ===
+(k=89)
+
+ predictor: 0.890, 0.900, 0.910, ...,  0.860, 0.870, 0.880
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.585    0.515     0.374     0.713
+std.dev    0.133    0.343     0.288     0.266
+median     0.600    0.519     0.238     0.830
+min        0.050    0.000     0.130     0.000
+max        1.000    1.000     1.000     0.909
+
+delta(ROC, normMCC) = 0.055
+delta(PR, normMCC) = 0.121
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.090 	 0.545 	 0.600 	  0.666 	 0.055 	 0.121 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.338 	  0.530   0.600  0.512  0.235   0.837 
+
+
+=== === === ===
+(k=90)
+
+ predictor: 0.900, 0.910, 0.920, ...,  0.870, 0.880, 0.890
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.545    0.505     0.353     0.690
+std.dev    0.130    0.343     0.284     0.273
+median     0.550    0.506     0.218     0.816
+min        0.050    0.000     0.121     0.000
+max        1.000    1.000     1.000     0.899
+
+delta(ROC, normMCC) = 0.030
+delta(PR, normMCC) = 0.103
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+0.040 	 0.520 	 0.550 	  0.623 	 0.030 	 0.103 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.310 	  0.510   0.550  0.500  0.216   0.816 
+
+
+=== === === ===
+(k=91)
+
+ predictor: 0.910, 0.920, 0.930, ...,  0.880, 0.890, 0.900
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.505    0.495     0.332     0.667
+std.dev    0.130    0.343     0.279     0.280
+median     0.500    0.494     0.200     0.800
+min        0.050    0.000     0.111     0.000
+max        1.000    1.000     1.000     0.889
+
+delta(ROC, normMCC) = 0.005
+delta(PR, normMCC) = 0.084
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.010 	 0.495 	 0.500 	  0.579 	 0.005 	 0.084 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.282 	  0.490   0.500  0.488  0.196   0.796 
+
+
+=== === === ===
+(k=92)
+
+ predictor: 0.920, 0.930, 0.940, ...,  0.890, 0.900, 0.910
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.465    0.485     0.309     0.645
+std.dev    0.133    0.343     0.272     0.285
+median     0.450    0.481     0.186     0.780
+min        0.050    0.000     0.101     0.000
+max        1.000    1.000     1.000     0.879
+
+delta(ROC, normMCC) = 0.020
+delta(PR, normMCC) = 0.064
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.060 	 0.470 	 0.450 	  0.534 	 0.020 	 0.064 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.254 	  0.470   0.450  0.475  0.176   0.776 
+
+
+=== === === ===
+(k=93)
+
+ predictor: 0.930, 0.940, 0.950, ...,  0.900, 0.910, 0.920
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.425    0.475     0.286     0.624
+std.dev    0.139    0.342     0.265     0.289
+median     0.400    0.469     0.172     0.760
+min        0.050    0.000     0.091     0.000
+max        1.000    1.000     1.000     0.870
+
+delta(ROC, normMCC) = 0.045
+delta(PR, normMCC) = 0.044
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.110 	 0.445 	 0.400 	  0.489 	 0.045 	 0.044 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.225 	  0.450   0.400  0.462  0.157   0.755 
+
+
+=== === === ===
+(k=94)
+
+ predictor: 0.940, 0.950, 0.960, ...,  0.910, 0.920, 0.930
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.385    0.465     0.261     0.604
+std.dev    0.147    0.342     0.255     0.292
+median     0.350    0.456     0.157     0.740
+min        0.050    0.000     0.080     0.000
+max        1.000    1.000     1.000     0.860
+
+delta(ROC, normMCC) = 0.070
+delta(PR, normMCC) = 0.023
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.160 	 0.420 	 0.350 	  0.443 	 0.070 	 0.023 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.197 	  0.430   0.350  0.450  0.137   0.735 
+
+
+=== === === ===
+(k=95)
+
+ predictor: 0.950, 0.960, 0.970, ...,  0.920, 0.930, 0.940
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.345    0.455     0.235     0.585
+std.dev    0.158    0.340     0.244     0.295
+median     0.300    0.444     0.140     0.720
+min        0.050    0.000     0.070     0.000
+max        1.000    1.000     1.000     0.851
+
+delta(ROC, normMCC) = 0.095
+delta(PR, normMCC) = 0.002
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.210 	 0.395 	 0.300 	  0.397 	 0.095 	 0.002 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.169 	  0.410   0.300  0.438  0.118   0.714 
+
+
+=== === === ===
+(k=96)
+
+ predictor: 0.960, 0.970, 0.980, ...,  0.930, 0.940, 0.950
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.305    0.445     0.208     0.566
+std.dev    0.170    0.339     0.230     0.297
+median     0.250    0.431     0.121     0.700
+min        0.050    0.000     0.059     0.000
+max        1.000    1.000     1.000     0.842
+
+delta(ROC, normMCC) = 0.120
+delta(PR, normMCC) = 0.020
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.260 	 0.370 	 0.250 	  0.350 	 0.120 	 0.020 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.141 	  0.390   0.250  0.425  0.098   0.694 
+
+
+=== === === ===
+(k=97)
+
+ predictor: 0.970, 0.980, 0.990, ...,  0.940, 0.950, 0.960
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.265    0.435     0.179     0.547
+std.dev    0.184    0.337     0.213     0.298
+median     0.200    0.419     0.102     0.680
+min        0.050    0.000     0.048     0.000
+max        1.000    1.000     1.000     0.833
+
+delta(ROC, normMCC) = 0.145
+delta(PR, normMCC) = 0.042
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.310 	 0.345 	 0.200 	  0.303 	 0.145 	 0.042 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.113 	  0.370   0.200  0.412  0.078   0.673 
+
+
+=== === === ===
+(k=98)
+
+ predictor: 0.980, 0.990, 1.000, ...,  0.950, 0.960, 0.970
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.225    0.425     0.147     0.530
+std.dev    0.199    0.335     0.191     0.298
+median     0.150    0.406     0.081     0.660
+min        0.050    0.000     0.036     0.000
+max        1.000    1.000     1.000     0.825
+
+delta(ROC, normMCC) = 0.170
+delta(PR, normMCC) = 0.065
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.360 	 0.320 	 0.150 	  0.255 	 0.170 	 0.065 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.085 	  0.350   0.150  0.400  0.059   0.653 
+
+
+=== === === ===
+(k=99)
+
+ predictor: 0.990, 1.000, 0.010, ...,  0.960, 0.970, 0.980
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.185    0.415     0.112     0.512
+std.dev    0.214    0.333     0.162     0.298
+median     0.100    0.394     0.058     0.640
+min        0.050    0.000     0.024     0.000
+max        1.000    1.000     1.000     0.816
+
+delta(ROC, normMCC) = 0.195
+delta(PR, normMCC) = 0.089
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.410 	 0.295 	 0.100 	  0.206 	 0.195 	 0.089 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.056 	  0.330   0.100  0.388  0.039   0.633 
+
+
+=== === === ===
+(k=100)
+
+ predictor: 1.000, 0.010, 0.020, ...,  0.970, 0.980, 0.990
+
+        TP_rates TN_rates PPV_rates NPV_rates
+mean       0.145    0.405     0.072     0.495
+std.dev    0.231    0.330     0.120     0.297
+median     0.050    0.381     0.031     0.620
+min        0.050    0.000     0.012     0.000
+max        1.000    1.000     1.000     0.808
+
+delta(ROC, normMCC) = 0.220
+delta(PR, normMCC) = 0.113
+
+ MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
+-0.460 	 0.270 	 0.050 	  0.157 	 0.220 	 0.113 
+ F1_score accuracy  TPR  TNR    PPV    NPV
+0.028 	  0.310   0.050  0.375  0.020   0.612 
+The  5  use cases with highest (normMCC - ROC AUC) difference: ***
+
+   use_case listDiffROCAUCnormMCC
+81       81              0.254951
+1         1              0.244949
+80       80              0.242451
+2         2              0.232449
+82       82              0.229956
+
+The  5  use cases with highest (normMCC - PR AUC) difference: ^^^ (incomplete search)
+   use_case listDiffPRAUCnormMCC
+50       50            0.5166986
+51       51            0.5112875
+52       52            0.5056095
+53       53            0.4996441
+49       49            0.4968565

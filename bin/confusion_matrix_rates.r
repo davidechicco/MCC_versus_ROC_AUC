@@ -136,13 +136,18 @@ confusion_matrix_rates <- function (actual_labels, predicted_values, keyword)
 #   cat(dec_three(complBrieScore), " \n ",  sep="")
   
   diffROCAUCnormMCC <- abs(normMCC - roc_auc)
+  diffPRAUCnormMCC <- abs(normMCC - prc_auc)
   
-  cat(" MCC \t normMCC  ROC AUC  PR AUC delta(ROC, normMCC)\n")
+  cat("delta(ROC, normMCC) = ", dec_three(diffROCAUCnormMCC), "\n", sep="")
+  cat("delta(PR, normMCC) = ", dec_three(diffPRAUCnormMCC), "\n\n", sep="")
+  
+  cat(" MCC \t normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)\n")
   cat(dec_three(thisMcc), " \t ",  sep="")
   cat(dec_three(normMCC), " \t ",  sep="")
   cat(dec_three(roc_auc), " \t  ",  sep="")
   cat(dec_three(prc_auc), " \t ",  sep="")
-  cat(dec_three(diffROCAUCnormMCC), " \n ",  sep="")
+  cat(dec_three(diffROCAUCnormMCC), " \t ",  sep="")
+  cat(dec_three(diffPRAUCnormMCC), " \n ",  sep="")
   
   cat("F1_score accuracy  TPR  TNR    PPV    NPV\n")
   cat(dec_three(f1_score), " \t  ",  sep="")
@@ -154,7 +159,7 @@ confusion_matrix_rates <- function (actual_labels, predicted_values, keyword)
  
   #  resultsList <- list("MCC" = thisMcc, "F1 score" = f1_score, "accuracy" = accuracy, "TP rate" = recall, "TN rate" = specificity, "PR AUC" = prc_auc, "ROC AUC" = roc_auc)
 
-    NUM_METRICS <- 13
+    NUM_METRICS <- 15
     outputDataframe <- matrix(ncol=NUM_METRICS, nrow=1)
     outputDataframe[,1] <- thisMcc
     outputDataframe[,2] <- f1_score
@@ -169,9 +174,11 @@ confusion_matrix_rates <- function (actual_labels, predicted_values, keyword)
     outputDataframe[,11] <- theBrierScore
     outputDataframe[,12] <- normMCC
     outputDataframe[,13] <- complBrieScore
-    colnames(outputDataframe) <- c("MCC", "F1_score", "accuracy", "TP_rate", "TN_rate", "PPV", "NPV", "PR_AUC", "ROC_AUC", "K", "BS", "normMCC", "complBS")
+    outputDataframe[,14] <- diffROCAUCnormMCC
+    outputDataframe[,15] <- diffPRAUCnormMCC
+    colnames(outputDataframe) <- c("MCC", "F1_score", "accuracy", "TP_rate", "TN_rate", "PPV", "NPV", "PR_AUC", "ROC_AUC", "K", "BS", "normMCC", "complBS", "diffROCAUCnormMCC", "diffPRAUCnormMCC")
 
-    return(outputDataframe)
+    return(data.frame(outputDataframe))
 }
 
 # Matthews correlation coefficient

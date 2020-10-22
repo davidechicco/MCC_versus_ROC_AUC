@@ -121,7 +121,7 @@ ONE <- 1
 ZERO <- 0
 
 number_of_ones <-   90
-number_of_zeros <- 5
+number_of_zeros <- 10
 
 cat("  number_of_ones ", number_of_ones, "\n", sep="")
 cat("  number_of_zeros ", number_of_zeros, "\n", sep="")
@@ -145,22 +145,50 @@ theseRatesVectors <- NULL
 
 predictor <- seq(from = 1/total_number_of_samples, to = 1, by = 1/total_number_of_samples)
 
+listDiffROCAUCnormMCC <- c()
+listDiffPRAUCnormMCC <- c()
+
 for(k in 1:total_number_of_samples) {
 
     cat("\n\n=== === === ===\n(k=", k, ")\n", sep="")
 
-#     cat("predictor:\n")
-#     print(predictor)
+    cat("\n predictor: ")
+    cat(dec_three(predictor[1]), ", ", dec_three(predictor[2]), ", ", dec_three(predictor[3]), ", ...,  ", dec_three(predictor[total_number_of_samples-2]), ", ", dec_three(predictor[total_number_of_samples-1]), ", ", dec_three(predictor[total_number_of_samples]), "\n\n", sep="")
 
    theseRatesVectors <-  rates_multi_thresholds(ground_truth, predictor)
 
    statDesResults <- stat.desc(theseRatesVectors)
    someStatResults <- (statDesResults)[c("mean", "std.dev", "median", "min", "max"),]
-    print(dec_three(someStatResults))
-    cat("\n")
+   print(dec_three(someStatResults))
+   cat("\n")
     
    
     cf_output <- confusion_matrix_rates(ground_truth, predictor, " ")
+    
+    thisDiffROCAUCnormMCC <- cf_output$"diffROCAUCnormMCC"
+    thisDiffPRAUCnormMCC <- cf_output$"diffPRAUCnormMCC"
+    
+    
+    listDiffROCAUCnormMCC[k] <- thisDiffROCAUCnormMCC
+    listDiffPRAUCnormMCC[k] <- thisDiffPRAUCnormMCC
+    
     predictor <- c(predictor[-1], predictor[1])
 }
+
+# cat("listDiffROCAUCnormMCC:\n")
+# print(listDiffROCAUCnormMCC)
+# 
+# cat("listDiffPRAUCnormMCC:\n")
+# print(listDiffPRAUCnormMCC)
+
+delta_normMCCs_ROC_AUCs <- data.frame(use_case = seq(1,total_number_of_samples), listDiffROCAUCnormMCC)
+delta_normMCCs_PR_AUCs <- data.frame(use_case = seq(1,total_number_of_samples), listDiffPRAUCnormMCC)
+
+topRanks <- 5
+cat("The ", topRanks, " use cases with highest (normMCC - ROC AUC) difference:\n")
+print(delta_normMCCs_ROC_AUCs[order(-listDiffROCAUCnormMCC), ][1:topRanks,])
+
+cat("The ", topRanks, " use cases with highest (normMCC - PR AUC) difference:\n")
+print(delta_normMCCs_PR_AUCs[order(-listDiffPRAUCnormMCC), ][1:topRanks,])
+
 

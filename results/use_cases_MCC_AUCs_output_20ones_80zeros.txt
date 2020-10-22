@@ -7,7 +7,7 @@ Imbalance of the dataset:
 
 
 === === === ===
-(k=1)***
+(k=1)
 
  predictor: 0.010, 0.020, 0.030, ...,  0.980, 0.990, 1.000
 
@@ -25,6 +25,12 @@ delta(PR, normMCC) = 0.138
 -0.510 	 0.245 	 0.000 	  0.107 	 0.245 	 0.138 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC1 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC1 ROC_AUC = 0.000	1.000	0.988	0.200	0.798 [max]
+UC1 PR_AUC  = 0.107	1.000	0.988	0.200	0.798 [max]
+
 
 
 === === === ===
@@ -47,6 +53,12 @@ delta(PR, normMCC) = 0.136
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC2 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC2 ROC_AUC = 0.012	1.000	0.988	0.202	1.000 [max]
+UC2 PR_AUC  = 0.109	1.000	0.988	0.202	1.000 [max]
+
+
 
 === === === ===
 (k=3)
@@ -67,6 +79,12 @@ delta(PR, normMCC) = 0.135
 -0.510 	 0.245 	 0.025 	  0.110 	 0.220 	 0.135 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC3 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC3 ROC_AUC = 0.025	1.000	0.988	0.204	1.000 [max]
+UC3 PR_AUC  = 0.110	1.000	0.988	0.204	1.000 [max]
+
 
 
 === === === ===
@@ -89,6 +107,12 @@ delta(PR, normMCC) = 0.134
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC4 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC4 ROC_AUC = 0.037	1.000	0.988	0.206	1.000 [max]
+UC4 PR_AUC  = 0.111	1.000	0.988	0.206	1.000 [max]
+
+
 
 === === === ===
 (k=5)
@@ -109,6 +133,12 @@ delta(PR, normMCC) = 0.133
 -0.510 	 0.245 	 0.050 	  0.112 	 0.195 	 0.133 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC5 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC5 ROC_AUC = 0.050	1.000	0.988	0.208	1.000 [max]
+UC5 PR_AUC  = 0.112	1.000	0.988	0.208	1.000 [max]
+
 
 
 === === === ===
@@ -131,6 +161,12 @@ delta(PR, normMCC) = 0.131
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC6 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC6 ROC_AUC = 0.062	1.000	0.988	0.211	1.000 [max]
+UC6 PR_AUC  = 0.114	1.000	0.988	0.211	1.000 [max]
+
+
 
 === === === ===
 (k=7)
@@ -151,6 +187,12 @@ delta(PR, normMCC) = 0.130
 -0.510 	 0.245 	 0.075 	  0.115 	 0.170 	 0.130 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC7 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC7 ROC_AUC = 0.075	1.000	0.988	0.213	1.000 [max]
+UC7 PR_AUC  = 0.115	1.000	0.988	0.213	1.000 [max]
+
 
 
 === === === ===
@@ -173,6 +215,12 @@ delta(PR, normMCC) = 0.129
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC8 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC8 ROC_AUC = 0.088	1.000	0.988	0.215	1.000 [max]
+UC8 PR_AUC  = 0.116	1.000	0.988	0.215	1.000 [max]
+
+
 
 === === === ===
 (k=9)
@@ -193,6 +241,12 @@ delta(PR, normMCC) = 0.127
 -0.510 	 0.245 	 0.100 	  0.118 	 0.145 	 0.127 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC9 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC9 ROC_AUC = 0.100	1.000	0.988	0.217	1.000 [max]
+UC9 PR_AUC  = 0.118	1.000	0.988	0.217	1.000 [max]
+
 
 
 === === === ===
@@ -215,6 +269,12 @@ delta(PR, normMCC) = 0.126
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC10 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC10 ROC_AUC = 0.113	1.000	0.988	0.220	1.000 [max]
+UC10 PR_AUC  = 0.119	1.000	0.988	0.220	1.000 [max]
+
+
 
 === === === ===
 (k=11)
@@ -235,6 +295,12 @@ delta(PR, normMCC) = 0.125
 -0.510 	 0.245 	 0.125 	  0.120 	 0.120 	 0.125 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC11 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC11 ROC_AUC = 0.125	1.000	0.988	0.222	1.000 [max]
+UC11 PR_AUC  = 0.120	1.000	0.988	0.222	1.000 [max]
+
 
 
 === === === ===
@@ -257,6 +323,12 @@ delta(PR, normMCC) = 0.123
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC12 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC12 ROC_AUC = 0.137	1.000	0.988	0.225	1.000 [max]
+UC12 PR_AUC  = 0.122	1.000	0.988	0.225	1.000 [max]
+
+
 
 === === === ===
 (k=13)
@@ -277,6 +349,12 @@ delta(PR, normMCC) = 0.122
 -0.510 	 0.245 	 0.150 	  0.123 	 0.095 	 0.122 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC13 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC13 ROC_AUC = 0.150	1.000	0.988	0.227	1.000 [max]
+UC13 PR_AUC  = 0.123	1.000	0.988	0.227	1.000 [max]
+
 
 
 === === === ===
@@ -299,6 +377,12 @@ delta(PR, normMCC) = 0.120
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC14 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC14 ROC_AUC = 0.162	1.000	0.988	0.230	1.000 [max]
+UC14 PR_AUC  = 0.125	1.000	0.988	0.230	1.000 [max]
+
+
 
 === === === ===
 (k=15)
@@ -319,6 +403,12 @@ delta(PR, normMCC) = 0.118
 -0.510 	 0.245 	 0.175 	  0.127 	 0.070 	 0.118 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC15 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC15 ROC_AUC = 0.175	1.000	0.988	0.233	1.000 [max]
+UC15 PR_AUC  = 0.127	1.000	0.988	0.233	1.000 [max]
+
 
 
 === === === ===
@@ -341,6 +431,12 @@ delta(PR, normMCC) = 0.117
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC16 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC16 ROC_AUC = 0.188	1.000	0.988	0.235	1.000 [max]
+UC16 PR_AUC  = 0.128	1.000	0.988	0.235	1.000 [max]
+
+
 
 === === === ===
 (k=17)
@@ -361,6 +457,12 @@ delta(PR, normMCC) = 0.115
 -0.510 	 0.245 	 0.200 	  0.130 	 0.045 	 0.115 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC17 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC17 ROC_AUC = 0.200	1.000	0.988	0.238	1.000 [max]
+UC17 PR_AUC  = 0.130	1.000	0.988	0.238	1.000 [max]
+
 
 
 === === === ===
@@ -383,6 +485,12 @@ delta(PR, normMCC) = 0.113
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC18 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC18 ROC_AUC = 0.213	1.000	0.988	0.241	1.000 [max]
+UC18 PR_AUC  = 0.132	1.000	0.988	0.241	1.000 [max]
+
+
 
 === === === ===
 (k=19)
@@ -403,6 +511,12 @@ delta(PR, normMCC) = 0.112
 -0.510 	 0.245 	 0.225 	  0.133 	 0.020 	 0.112 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC19 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC19 ROC_AUC = 0.225	1.000	0.988	0.244	1.000 [max]
+UC19 PR_AUC  = 0.133	1.000	0.988	0.244	1.000 [max]
+
 
 
 === === === ===
@@ -425,6 +539,12 @@ delta(PR, normMCC) = 0.110
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC20 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC20 ROC_AUC = 0.238	1.000	0.988	0.247	1.000 [max]
+UC20 PR_AUC  = 0.135	1.000	0.988	0.247	1.000 [max]
+
+
 
 === === === ===
 (k=21)
@@ -445,6 +565,12 @@ delta(PR, normMCC) = 0.108
 -0.510 	 0.245 	 0.250 	  0.137 	 0.005 	 0.108 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC21 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC21 ROC_AUC = 0.250	1.000	0.988	0.250	1.000 [max]
+UC21 PR_AUC  = 0.137	1.000	0.988	0.250	1.000 [max]
+
 
 
 === === === ===
@@ -467,6 +593,12 @@ delta(PR, normMCC) = 0.106
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC22 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC22 ROC_AUC = 0.262	1.000	0.988	0.253	1.000 [max]
+UC22 PR_AUC  = 0.139	1.000	0.988	0.253	1.000 [max]
+
+
 
 === === === ===
 (k=23)
@@ -487,6 +619,12 @@ delta(PR, normMCC) = 0.104
 -0.510 	 0.245 	 0.275 	  0.141 	 0.030 	 0.104 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC23 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC23 ROC_AUC = 0.275	1.000	0.988	0.256	1.000 [max]
+UC23 PR_AUC  = 0.141	1.000	0.988	0.256	1.000 [max]
+
 
 
 === === === ===
@@ -509,6 +647,12 @@ delta(PR, normMCC) = 0.102
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC24 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC24 ROC_AUC = 0.288	1.000	0.988	0.260	1.000 [max]
+UC24 PR_AUC  = 0.143	1.000	0.988	0.260	1.000 [max]
+
+
 
 === === === ===
 (k=25)
@@ -529,6 +673,12 @@ delta(PR, normMCC) = 0.100
 -0.510 	 0.245 	 0.300 	  0.145 	 0.055 	 0.100 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC25 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC25 ROC_AUC = 0.300	1.000	0.988	0.263	1.000 [max]
+UC25 PR_AUC  = 0.145	1.000	0.988	0.263	1.000 [max]
+
 
 
 === === === ===
@@ -551,6 +701,12 @@ delta(PR, normMCC) = 0.098
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC26 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC26 ROC_AUC = 0.312	1.000	0.988	0.267	1.000 [max]
+UC26 PR_AUC  = 0.147	1.000	0.988	0.267	1.000 [max]
+
+
 
 === === === ===
 (k=27)
@@ -571,6 +727,12 @@ delta(PR, normMCC) = 0.096
 -0.510 	 0.245 	 0.325 	  0.149 	 0.080 	 0.096 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC27 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC27 ROC_AUC = 0.325	1.000	0.988	0.270	1.000 [max]
+UC27 PR_AUC  = 0.149	1.000	0.988	0.270	1.000 [max]
+
 
 
 === === === ===
@@ -593,6 +755,12 @@ delta(PR, normMCC) = 0.093
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC28 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC28 ROC_AUC = 0.338	1.000	0.988	0.274	1.000 [max]
+UC28 PR_AUC  = 0.152	1.000	0.988	0.274	1.000 [max]
+
+
 
 === === === ===
 (k=29)
@@ -613,6 +781,12 @@ delta(PR, normMCC) = 0.091
 -0.510 	 0.245 	 0.350 	  0.154 	 0.105 	 0.091 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC29 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC29 ROC_AUC = 0.350	1.000	0.988	0.278	1.000 [max]
+UC29 PR_AUC  = 0.154	1.000	0.988	0.278	1.000 [max]
+
 
 
 === === === ===
@@ -635,6 +809,12 @@ delta(PR, normMCC) = 0.089
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.000 	  0.290   0.000  0.362  0.000   0.592 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC30 MCC_tau = -0.510	0.000	0.362	0.000	0.592 [tau = 0.5]
+UC30 ROC_AUC = 0.363	1.000	0.988	0.282	1.000 [max]
+UC30 PR_AUC  = 0.156	1.000	0.988	0.282	1.000 [max]
+
+
 
 === === === ===
 (k=31)
@@ -655,6 +835,12 @@ delta(PR, normMCC) = 0.111
 -0.460 	 0.270 	 0.375 	  0.159 	 0.105 	 0.111 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.028 	  0.310   0.050  0.375  0.020   0.612 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC31 MCC_tau = -0.460	0.050	0.375	0.020	0.612 [tau = 0.5]
+UC31 ROC_AUC = 0.375	1.000	0.988	0.286	1.000 [max]
+UC31 PR_AUC  = 0.159	1.000	0.988	0.286	1.000 [max]
+
 
 
 === === === ===
@@ -677,6 +863,12 @@ delta(PR, normMCC) = 0.134
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.056 	  0.330   0.100  0.388  0.039   0.633 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC32 MCC_tau = -0.410	0.100	0.388	0.039	0.633 [tau = 0.5]
+UC32 ROC_AUC = 0.387	1.000	0.988	0.290	1.000 [max]
+UC32 PR_AUC  = 0.161	1.000	0.988	0.290	1.000 [max]
+
+
 
 === === === ===
 (k=33)
@@ -697,6 +889,12 @@ delta(PR, normMCC) = 0.156
 -0.360 	 0.320 	 0.400 	  0.164 	 0.080 	 0.156 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.085 	  0.350   0.150  0.400  0.059   0.653 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC33 MCC_tau = -0.360	0.150	0.400	0.059	0.653 [tau = 0.5]
+UC33 ROC_AUC = 0.400	1.000	0.988	0.294	1.000 [max]
+UC33 PR_AUC  = 0.164	1.000	0.988	0.294	1.000 [max]
+
 
 
 === === === ===
@@ -719,6 +917,12 @@ delta(PR, normMCC) = 0.178
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.113 	  0.370   0.200  0.412  0.078   0.673 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC34 MCC_tau = -0.310	0.200	0.412	0.078	0.673 [tau = 0.5]
+UC34 ROC_AUC = 0.412	1.000	0.988	0.299	1.000 [max]
+UC34 PR_AUC  = 0.167	1.000	0.988	0.299	1.000 [max]
+
+
 
 === === === ===
 (k=35)
@@ -739,6 +943,12 @@ delta(PR, normMCC) = 0.200
 -0.260 	 0.370 	 0.425 	  0.170 	 0.055 	 0.200 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.141 	  0.390   0.250  0.425  0.098   0.694 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC35 MCC_tau = -0.260	0.250	0.425	0.098	0.694 [tau = 0.5]
+UC35 ROC_AUC = 0.425	1.000	0.988	0.303	1.000 [max]
+UC35 PR_AUC  = 0.170	1.000	0.988	0.303	1.000 [max]
+
 
 
 === === === ===
@@ -761,6 +971,12 @@ delta(PR, normMCC) = 0.222
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.169 	  0.410   0.300  0.438  0.118   0.714 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC36 MCC_tau = -0.210	0.300	0.438	0.118	0.714 [tau = 0.5]
+UC36 ROC_AUC = 0.438	1.000	0.988	0.308	1.000 [max]
+UC36 PR_AUC  = 0.173	1.000	0.988	0.308	1.000 [max]
+
+
 
 === === === ===
 (k=37)
@@ -781,6 +997,12 @@ delta(PR, normMCC) = 0.244
 -0.160 	 0.420 	 0.450 	  0.176 	 0.030 	 0.244 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.197 	  0.430   0.350  0.450  0.137   0.735 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC37 MCC_tau = -0.160	0.350	0.450	0.137	0.735 [tau = 0.5]
+UC37 ROC_AUC = 0.450	1.000	0.988	0.312	1.000 [max]
+UC37 PR_AUC  = 0.176	1.000	0.988	0.312	1.000 [max]
+
 
 
 === === === ===
@@ -803,6 +1025,12 @@ delta(PR, normMCC) = 0.266
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.225 	  0.450   0.400  0.462  0.157   0.755 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC38 MCC_tau = -0.110	0.400	0.462	0.157	0.755 [tau = 0.5]
+UC38 ROC_AUC = 0.462	1.000	0.988	0.317	1.000 [max]
+UC38 PR_AUC  = 0.179	1.000	0.988	0.317	1.000 [max]
+
+
 
 === === === ===
 (k=39)
@@ -823,6 +1051,12 @@ delta(PR, normMCC) = 0.288
 -0.060 	 0.470 	 0.475 	  0.182 	 0.005 	 0.288 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.254 	  0.470   0.450  0.475  0.176   0.776 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC39 MCC_tau = -0.060	0.450	0.475	0.176	0.776 [tau = 0.5]
+UC39 ROC_AUC = 0.475	1.000	0.988	0.323	1.000 [max]
+UC39 PR_AUC  = 0.182	1.000	0.988	0.323	1.000 [max]
+
 
 
 === === === ===
@@ -845,6 +1079,12 @@ delta(PR, normMCC) = 0.309
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.282 	  0.490   0.500  0.488  0.196   0.796 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC40 MCC_tau = -0.010	0.500	0.488	0.196	0.796 [tau = 0.5]
+UC40 ROC_AUC = 0.488	1.000	0.988	0.328	1.000 [max]
+UC40 PR_AUC  = 0.186	1.000	0.988	0.328	1.000 [max]
+
+
 
 === === === ===
 (k=41)
@@ -865,6 +1105,12 @@ delta(PR, normMCC) = 0.331
 0.040 	 0.520 	 0.500 	  0.189 	 0.020 	 0.331 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.310 	  0.510   0.550  0.500  0.216   0.816 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC41 MCC_tau = 0.040	0.550	0.500	0.216	0.816 [tau = 0.5]
+UC41 ROC_AUC = 0.500	1.000	0.988	0.333	1.000 [max]
+UC41 PR_AUC  = 0.189	1.000	0.988	0.333	1.000 [max]
+
 
 
 === === === ===
@@ -887,6 +1133,12 @@ delta(PR, normMCC) = 0.352
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.338 	  0.530   0.600  0.512  0.235   0.837 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC42 MCC_tau = 0.090	0.600	0.512	0.235	0.837 [tau = 0.5]
+UC42 ROC_AUC = 0.512	1.000	0.988	0.339	1.000 [max]
+UC42 PR_AUC  = 0.193	1.000	0.988	0.339	1.000 [max]
+
+
 
 === === === ===
 (k=43)
@@ -907,6 +1159,12 @@ delta(PR, normMCC) = 0.373
 0.140 	 0.570 	 0.525 	  0.197 	 0.045 	 0.373 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.366 	  0.550   0.650  0.525  0.255   0.857 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC43 MCC_tau = 0.140	0.650	0.525	0.255	0.857 [tau = 0.5]
+UC43 ROC_AUC = 0.525	1.000	0.988	0.345	1.000 [max]
+UC43 PR_AUC  = 0.197	1.000	0.988	0.345	1.000 [max]
+
 
 
 === === === ===
@@ -929,6 +1187,12 @@ delta(PR, normMCC) = 0.394
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.394 	  0.570   0.700  0.538  0.275   0.878 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC44 MCC_tau = 0.190	0.700	0.538	0.275	0.878 [tau = 0.5]
+UC44 ROC_AUC = 0.538	1.000	0.988	0.351	1.000 [max]
+UC44 PR_AUC  = 0.201	1.000	0.988	0.351	1.000 [max]
+
+
 
 === === === ===
 (k=45)
@@ -949,6 +1213,12 @@ delta(PR, normMCC) = 0.415
 0.240 	 0.620 	 0.550 	  0.205 	 0.070 	 0.415 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.423 	  0.590   0.750  0.550  0.294   0.898 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC45 MCC_tau = 0.240	0.750	0.550	0.294	0.898 [tau = 0.5]
+UC45 ROC_AUC = 0.550	1.000	0.988	0.357	1.000 [max]
+UC45 PR_AUC  = 0.205	1.000	0.988	0.357	1.000 [max]
+
 
 
 === === === ===
@@ -971,6 +1241,12 @@ delta(PR, normMCC) = 0.436
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.451 	  0.610   0.800  0.562  0.314   0.918 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC46 MCC_tau = 0.290	0.800	0.562	0.314	0.918 [tau = 0.5]
+UC46 ROC_AUC = 0.562	1.000	0.988	0.364	1.000 [max]
+UC46 PR_AUC  = 0.209	1.000	0.988	0.364	1.000 [max]
+
+
 
 === === === ===
 (k=47)
@@ -991,6 +1267,12 @@ delta(PR, normMCC) = 0.456
 0.340 	 0.670 	 0.575 	  0.214 	 0.095 	 0.456 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.479 	  0.630   0.850  0.575  0.333   0.939 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC47 MCC_tau = 0.340	0.850	0.575	0.333	0.939 [tau = 0.5]
+UC47 ROC_AUC = 0.575	1.000	0.988	0.370	1.000 [max]
+UC47 PR_AUC  = 0.214	1.000	0.988	0.370	1.000 [max]
+
 
 
 === === === ===
@@ -1013,6 +1295,12 @@ delta(PR, normMCC) = 0.477
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.507 	  0.650   0.900  0.588  0.353   0.959 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC48 MCC_tau = 0.390	0.900	0.588	0.353	0.959 [tau = 0.5]
+UC48 ROC_AUC = 0.588	1.000	0.988	0.377	1.000 [max]
+UC48 PR_AUC  = 0.218	1.000	0.988	0.377	1.000 [max]
+
+
 
 === === === ===
 (k=49)
@@ -1034,9 +1322,15 @@ delta(PR, normMCC) = 0.497
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.535 	  0.670   0.950  0.600  0.373   0.980 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC49 MCC_tau = 0.440	0.950	0.600	0.373	0.980 [tau = 0.5]
+UC49 ROC_AUC = 0.600	1.000	0.988	0.385	1.000 [max]
+UC49 PR_AUC  = 0.223	1.000	0.988	0.385	1.000 [max]
+
+
 
 === === === ===
-(k=50)^^^
+(k=50)
 
  predictor: 0.500, 0.510, 0.520, ...,  0.470, 0.480, 0.490
 
@@ -1051,13 +1345,19 @@ delta(ROC, normMCC) = 0.133
 delta(PR, normMCC) = 0.517
 
  MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
-0.490 	 0.745 	         0.612 	         0.228 	 0.133 	                                 0.517 
+0.490 	 0.745 	 0.612 	  0.228 	 0.133 	 0.517 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC50 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC50 ROC_AUC = 0.612	1.000	0.988	0.392	1.000 [max]
+UC50 PR_AUC  = 0.228	1.000	0.988	0.392	1.000 [max]
+
+
 
 === === === ===
-(k=51)^^^
+(k=51)
 
  predictor: 0.510, 0.520, 0.530, ...,  0.480, 0.490, 0.500
 
@@ -1076,9 +1376,15 @@ delta(PR, normMCC) = 0.511
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC51 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC51 ROC_AUC = 0.625	1.000	0.988	0.400	1.000 [max]
+UC51 PR_AUC  = 0.234	1.000	0.988	0.400	1.000 [max]
+
+
 
 === === === ===
-(k=52)^^^
+(k=52)
 
  predictor: 0.520, 0.530, 0.540, ...,  0.490, 0.500, 0.510
 
@@ -1096,6 +1402,12 @@ delta(PR, normMCC) = 0.506
 0.490 	 0.745 	 0.638 	  0.239 	 0.108 	 0.506 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC52 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC52 ROC_AUC = 0.638	1.000	0.988	0.408	1.000 [max]
+UC52 PR_AUC  = 0.239	1.000	0.988	0.408	1.000 [max]
+
 
 
 === === === ===
@@ -1118,6 +1430,12 @@ delta(PR, normMCC) = 0.500
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC53 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC53 ROC_AUC = 0.650	1.000	0.988	0.417	1.000 [max]
+UC53 PR_AUC  = 0.245	1.000	0.988	0.417	1.000 [max]
+
+
 
 === === === ===
 (k=54)
@@ -1138,6 +1456,12 @@ delta(PR, normMCC) = 0.493
 0.490 	 0.745 	 0.662 	  0.252 	 0.083 	 0.493 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC54 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC54 ROC_AUC = 0.662	1.000	0.988	0.426	1.000 [max]
+UC54 PR_AUC  = 0.252	1.000	0.988	0.426	1.000 [max]
+
 
 
 === === === ===
@@ -1160,6 +1484,12 @@ delta(PR, normMCC) = 0.487
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC55 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC55 ROC_AUC = 0.675	1.000	0.988	0.435	1.000 [max]
+UC55 PR_AUC  = 0.258	1.000	0.988	0.435	1.000 [max]
+
+
 
 === === === ===
 (k=56)
@@ -1180,6 +1510,12 @@ delta(PR, normMCC) = 0.480
 0.490 	 0.745 	 0.688 	  0.265 	 0.058 	 0.480 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC56 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC56 ROC_AUC = 0.688	1.000	0.988	0.444	1.000 [max]
+UC56 PR_AUC  = 0.265	1.000	0.988	0.444	1.000 [max]
+
 
 
 === === === ===
@@ -1202,6 +1538,12 @@ delta(PR, normMCC) = 0.472
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC57 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC57 ROC_AUC = 0.700	1.000	0.988	0.455	1.000 [max]
+UC57 PR_AUC  = 0.273	1.000	0.988	0.455	1.000 [max]
+
+
 
 === === === ===
 (k=58)
@@ -1222,6 +1564,12 @@ delta(PR, normMCC) = 0.465
 0.490 	 0.745 	 0.712 	  0.280 	 0.033 	 0.465 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC58 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC58 ROC_AUC = 0.712	1.000	0.988	0.465	1.000 [max]
+UC58 PR_AUC  = 0.280	1.000	0.988	0.465	1.000 [max]
+
 
 
 === === === ===
@@ -1244,6 +1592,12 @@ delta(PR, normMCC) = 0.456
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC59 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC59 ROC_AUC = 0.725	1.000	0.988	0.476	1.000 [max]
+UC59 PR_AUC  = 0.289	1.000	0.988	0.476	1.000 [max]
+
+
 
 === === === ===
 (k=60)
@@ -1264,6 +1618,12 @@ delta(PR, normMCC) = 0.448
 0.490 	 0.745 	 0.738 	  0.297 	 0.008 	 0.448 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC60 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC60 ROC_AUC = 0.738	1.000	0.988	0.488	1.000 [max]
+UC60 PR_AUC  = 0.297	1.000	0.988	0.488	1.000 [max]
+
 
 
 === === === ===
@@ -1286,6 +1646,12 @@ delta(PR, normMCC) = 0.438
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC61 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC61 ROC_AUC = 0.750	1.000	0.988	0.500	1.000 [max]
+UC61 PR_AUC  = 0.307	1.000	0.988	0.500	1.000 [max]
+
+
 
 === === === ===
 (k=62)
@@ -1306,6 +1672,12 @@ delta(PR, normMCC) = 0.428
 0.490 	 0.745 	 0.762 	  0.317 	 0.017 	 0.428 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC62 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC62 ROC_AUC = 0.762	1.000	0.988	0.513	1.000 [max]
+UC62 PR_AUC  = 0.317	1.000	0.988	0.513	1.000 [max]
+
 
 
 === === === ===
@@ -1328,6 +1700,12 @@ delta(PR, normMCC) = 0.418
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC63 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC63 ROC_AUC = 0.775	1.000	0.988	0.526	1.000 [max]
+UC63 PR_AUC  = 0.328	1.000	0.988	0.526	1.000 [max]
+
+
 
 === === === ===
 (k=64)
@@ -1348,6 +1726,12 @@ delta(PR, normMCC) = 0.406
 0.490 	 0.745 	 0.788 	  0.339 	 0.042 	 0.406 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC64 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC64 ROC_AUC = 0.788	1.000	0.988	0.541	1.000 [max]
+UC64 PR_AUC  = 0.339	1.000	0.988	0.541	1.000 [max]
+
 
 
 === === === ===
@@ -1370,6 +1754,12 @@ delta(PR, normMCC) = 0.394
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC65 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC65 ROC_AUC = 0.800	1.000	0.988	0.556	1.000 [max]
+UC65 PR_AUC  = 0.351	1.000	0.988	0.556	1.000 [max]
+
+
 
 === === === ===
 (k=66)
@@ -1390,6 +1780,12 @@ delta(PR, normMCC) = 0.381
 0.490 	 0.745 	 0.812 	  0.365 	 0.067 	 0.381 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC66 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC66 ROC_AUC = 0.812	1.000	0.988	0.571	1.000 [max]
+UC66 PR_AUC  = 0.365	1.000	0.988	0.571	1.000 [max]
+
 
 
 === === === ===
@@ -1412,6 +1808,12 @@ delta(PR, normMCC) = 0.366
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC67 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC67 ROC_AUC = 0.825	1.000	0.988	0.588	1.000 [max]
+UC67 PR_AUC  = 0.379	1.000	0.988	0.588	1.000 [max]
+
+
 
 === === === ===
 (k=68)
@@ -1432,6 +1834,12 @@ delta(PR, normMCC) = 0.351
 0.490 	 0.745 	 0.838 	  0.394 	 0.092 	 0.351 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC68 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC68 ROC_AUC = 0.838	1.000	0.988	0.606	1.000 [max]
+UC68 PR_AUC  = 0.394	1.000	0.988	0.606	1.000 [max]
+
 
 
 === === === ===
@@ -1454,6 +1862,12 @@ delta(PR, normMCC) = 0.334
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC69 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC69 ROC_AUC = 0.850	1.000	0.988	0.625	1.000 [max]
+UC69 PR_AUC  = 0.412	1.000	0.988	0.625	1.000 [max]
+
+
 
 === === === ===
 (k=70)
@@ -1474,6 +1888,12 @@ delta(PR, normMCC) = 0.315
 0.490 	 0.745 	 0.862 	  0.430 	 0.117 	 0.315 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC70 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC70 ROC_AUC = 0.862	1.000	0.988	0.645	1.000 [max]
+UC70 PR_AUC  = 0.430	1.000	0.988	0.645	1.000 [max]
+
 
 
 === === === ===
@@ -1496,6 +1916,12 @@ delta(PR, normMCC) = 0.294
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC71 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC71 ROC_AUC = 0.875	1.000	0.988	0.667	1.000 [max]
+UC71 PR_AUC  = 0.451	1.000	0.988	0.667	1.000 [max]
+
+
 
 === === === ===
 (k=72)
@@ -1516,6 +1942,12 @@ delta(PR, normMCC) = 0.272
 0.490 	 0.745 	 0.888 	  0.473 	 0.142 	 0.272 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC72 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC72 ROC_AUC = 0.888	1.000	0.988	0.690	1.000 [max]
+UC72 PR_AUC  = 0.473	1.000	0.988	0.690	1.000 [max]
+
 
 
 === === === ===
@@ -1538,6 +1970,12 @@ delta(PR, normMCC) = 0.246
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC73 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC73 ROC_AUC = 0.900	1.000	0.988	0.714	1.000 [max]
+UC73 PR_AUC  = 0.499	1.000	0.988	0.714	1.000 [max]
+
+
 
 === === === ===
 (k=74)
@@ -1558,6 +1996,12 @@ delta(PR, normMCC) = 0.218
 0.490 	 0.745 	 0.912 	  0.528 	 0.167 	 0.218 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC74 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC74 ROC_AUC = 0.912	1.000	0.988	0.741	1.000 [max]
+UC74 PR_AUC  = 0.528	1.000	0.988	0.741	1.000 [max]
+
 
 
 === === === ===
@@ -1580,6 +2024,12 @@ delta(PR, normMCC) = 0.185
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC75 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC75 ROC_AUC = 0.925	1.000	0.988	0.769	1.000 [max]
+UC75 PR_AUC  = 0.560	1.000	0.988	0.769	1.000 [max]
+
+
 
 === === === ===
 (k=76)
@@ -1600,6 +2050,12 @@ delta(PR, normMCC) = 0.147
 0.490 	 0.745 	 0.938 	  0.598 	 0.192 	 0.147 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC76 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC76 ROC_AUC = 0.938	1.000	0.988	0.800	1.000 [max]
+UC76 PR_AUC  = 0.598	1.000	0.988	0.800	1.000 [max]
+
 
 
 === === === ===
@@ -1622,6 +2078,12 @@ delta(PR, normMCC) = 0.103
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC77 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC77 ROC_AUC = 0.950	1.000	0.988	0.833	1.000 [max]
+UC77 PR_AUC  = 0.642	1.000	0.988	0.833	1.000 [max]
+
+
 
 === === === ===
 (k=78)
@@ -1642,6 +2104,12 @@ delta(PR, normMCC) = 0.051
 0.490 	 0.745 	 0.962 	  0.694 	 0.217 	 0.051 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC78 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC78 ROC_AUC = 0.962	1.000	0.988	0.870	1.000 [max]
+UC78 PR_AUC  = 0.694	1.000	0.988	0.870	1.000 [max]
+
 
 
 === === === ===
@@ -1664,9 +2132,15 @@ delta(PR, normMCC) = 0.015
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC79 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC79 ROC_AUC = 0.975	1.000	0.988	0.909	1.000 [max]
+UC79 PR_AUC  = 0.760	1.000	0.988	0.909	1.000 [max]
+
+
 
 === === === ===
-(k=80)***
+(k=80)
 
  predictor: 0.800, 0.810, 0.820, ...,  0.770, 0.780, 0.790
 
@@ -1685,9 +2159,15 @@ delta(PR, normMCC) = 0.103
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC80 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC80 ROC_AUC = 0.988	1.000	0.988	0.952	1.000 [max]
+UC80 PR_AUC  = 0.848	1.000	0.988	0.952	1.000 [max]
+
+
 
 === === === ===
-(k=81)***
+(k=81)
 
  predictor: 0.810, 0.820, 0.830, ...,  0.780, 0.790, 0.800
 
@@ -1702,9 +2182,15 @@ delta(ROC, normMCC) = 0.255
 delta(PR, normMCC) = 0.255
 
  MCC 	 normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)
-0.490 	 0.745 	         1.000 	     1.000 	 0.255 	                                         0.255 
+0.490 	 0.745 	     1.000 	     1.000 	     0.255 	                                 0.255 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.563 	  0.690   1.000  0.612  0.392   1.000 
+
+use case  metric                 TPR   TNR        PPV    NPV 
+UC81 MCC_tau = 0.490	1.000	0.612	0.392	1.000 [tau = 0.5]
+UC81 ROC_AUC = 1.000	1.000	1.000	1.000	1.000 [max]
+UC81 PR_AUC  = 1.000	1.000	1.000	1.000	1.000 [max]
+
 
 
 === === === ===
@@ -1727,6 +2213,12 @@ delta(PR, normMCC) = 0.240
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.535 	  0.670   0.950  0.600  0.373   0.980 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC82 MCC_tau = 0.440	0.950	0.600	0.373	0.980 [tau = 0.5]
+UC82 ROC_AUC = 0.950	1.000	1.000	1.000	0.988 [max]
+UC82 PR_AUC  = 0.960	1.000	1.000	1.000	0.988 [max]
+
+
 
 === === === ===
 (k=83)
@@ -1747,6 +2239,12 @@ delta(PR, normMCC) = 0.224
 0.390 	 0.695 	 0.900 	  0.919 	 0.205 	 0.224 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.507 	  0.650   0.900  0.588  0.353   0.959 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC83 MCC_tau = 0.390	0.900	0.588	0.353	0.959 [tau = 0.5]
+UC83 ROC_AUC = 0.900	1.000	1.000	1.000	0.976 [max]
+UC83 PR_AUC  = 0.919	1.000	1.000	1.000	0.976 [max]
+
 
 
 === === === ===
@@ -1769,6 +2267,12 @@ delta(PR, normMCC) = 0.208
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.479 	  0.630   0.850  0.575  0.333   0.939 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC84 MCC_tau = 0.340	0.850	0.575	0.333	0.939 [tau = 0.5]
+UC84 ROC_AUC = 0.850	1.000	1.000	1.000	0.964 [max]
+UC84 PR_AUC  = 0.878	1.000	1.000	1.000	0.964 [max]
+
+
 
 === === === ===
 (k=85)
@@ -1789,6 +2293,12 @@ delta(PR, normMCC) = 0.192
 0.290 	 0.645 	 0.800 	  0.837 	 0.155 	 0.192 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.451 	  0.610   0.800  0.562  0.314   0.918 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC85 MCC_tau = 0.290	0.800	0.562	0.314	0.918 [tau = 0.5]
+UC85 ROC_AUC = 0.800	1.000	1.000	1.000	0.952 [max]
+UC85 PR_AUC  = 0.837	1.000	1.000	1.000	0.952 [max]
+
 
 
 === === === ===
@@ -1811,6 +2321,12 @@ delta(PR, normMCC) = 0.175
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.423 	  0.590   0.750  0.550  0.294   0.898 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC86 MCC_tau = 0.240	0.750	0.550	0.294	0.898 [tau = 0.5]
+UC86 ROC_AUC = 0.750	1.000	1.000	1.000	0.941 [max]
+UC86 PR_AUC  = 0.795	1.000	1.000	1.000	0.941 [max]
+
+
 
 === === === ===
 (k=87)
@@ -1831,6 +2347,12 @@ delta(PR, normMCC) = 0.157
 0.190 	 0.595 	 0.700 	  0.752 	 0.105 	 0.157 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.394 	  0.570   0.700  0.538  0.275   0.878 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC87 MCC_tau = 0.190	0.700	0.538	0.275	0.878 [tau = 0.5]
+UC87 ROC_AUC = 0.700	1.000	1.000	1.000	0.930 [max]
+UC87 PR_AUC  = 0.752	1.000	1.000	1.000	0.930 [max]
+
 
 
 === === === ===
@@ -1853,6 +2375,12 @@ delta(PR, normMCC) = 0.140
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.366 	  0.550   0.650  0.525  0.255   0.857 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC88 MCC_tau = 0.140	0.650	0.525	0.255	0.857 [tau = 0.5]
+UC88 ROC_AUC = 0.650	1.000	1.000	1.000	0.920 [max]
+UC88 PR_AUC  = 0.710	1.000	1.000	1.000	0.920 [max]
+
+
 
 === === === ===
 (k=89)
@@ -1873,6 +2401,12 @@ delta(PR, normMCC) = 0.121
 0.090 	 0.545 	 0.600 	  0.666 	 0.055 	 0.121 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.338 	  0.530   0.600  0.512  0.235   0.837 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC89 MCC_tau = 0.090	0.600	0.512	0.235	0.837 [tau = 0.5]
+UC89 ROC_AUC = 0.600	1.000	1.000	1.000	0.909 [max]
+UC89 PR_AUC  = 0.666	1.000	1.000	1.000	0.909 [max]
+
 
 
 === === === ===
@@ -1895,6 +2429,12 @@ delta(PR, normMCC) = 0.103
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.310 	  0.510   0.550  0.500  0.216   0.816 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC90 MCC_tau = 0.040	0.550	0.500	0.216	0.816 [tau = 0.5]
+UC90 ROC_AUC = 0.550	1.000	1.000	1.000	0.899 [max]
+UC90 PR_AUC  = 0.623	1.000	1.000	1.000	0.899 [max]
+
+
 
 === === === ===
 (k=91)
@@ -1915,6 +2455,12 @@ delta(PR, normMCC) = 0.084
 -0.010 	 0.495 	 0.500 	  0.579 	 0.005 	 0.084 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.282 	  0.490   0.500  0.488  0.196   0.796 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC91 MCC_tau = -0.010	0.500	0.488	0.196	0.796 [tau = 0.5]
+UC91 ROC_AUC = 0.500	1.000	1.000	1.000	0.889 [max]
+UC91 PR_AUC  = 0.579	1.000	1.000	1.000	0.889 [max]
+
 
 
 === === === ===
@@ -1937,6 +2483,12 @@ delta(PR, normMCC) = 0.064
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.254 	  0.470   0.450  0.475  0.176   0.776 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC92 MCC_tau = -0.060	0.450	0.475	0.176	0.776 [tau = 0.5]
+UC92 ROC_AUC = 0.450	1.000	1.000	1.000	0.879 [max]
+UC92 PR_AUC  = 0.534	1.000	1.000	1.000	0.879 [max]
+
+
 
 === === === ===
 (k=93)
@@ -1957,6 +2509,12 @@ delta(PR, normMCC) = 0.044
 -0.110 	 0.445 	 0.400 	  0.489 	 0.045 	 0.044 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.225 	  0.450   0.400  0.462  0.157   0.755 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC93 MCC_tau = -0.110	0.400	0.462	0.157	0.755 [tau = 0.5]
+UC93 ROC_AUC = 0.400	1.000	1.000	1.000	0.870 [max]
+UC93 PR_AUC  = 0.489	1.000	1.000	1.000	0.870 [max]
+
 
 
 === === === ===
@@ -1979,6 +2537,12 @@ delta(PR, normMCC) = 0.023
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.197 	  0.430   0.350  0.450  0.137   0.735 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC94 MCC_tau = -0.160	0.350	0.450	0.137	0.735 [tau = 0.5]
+UC94 ROC_AUC = 0.350	1.000	1.000	1.000	0.860 [max]
+UC94 PR_AUC  = 0.443	1.000	1.000	1.000	0.860 [max]
+
+
 
 === === === ===
 (k=95)
@@ -1999,6 +2563,12 @@ delta(PR, normMCC) = 0.002
 -0.210 	 0.395 	 0.300 	  0.397 	 0.095 	 0.002 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.169 	  0.410   0.300  0.438  0.118   0.714 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC95 MCC_tau = -0.210	0.300	0.438	0.118	0.714 [tau = 0.5]
+UC95 ROC_AUC = 0.300	1.000	1.000	1.000	0.851 [max]
+UC95 PR_AUC  = 0.397	1.000	1.000	1.000	0.851 [max]
+
 
 
 === === === ===
@@ -2021,6 +2591,12 @@ delta(PR, normMCC) = 0.020
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.141 	  0.390   0.250  0.425  0.098   0.694 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC96 MCC_tau = -0.260	0.250	0.425	0.098	0.694 [tau = 0.5]
+UC96 ROC_AUC = 0.250	1.000	1.000	1.000	0.842 [max]
+UC96 PR_AUC  = 0.350	1.000	1.000	1.000	0.842 [max]
+
+
 
 === === === ===
 (k=97)
@@ -2041,6 +2617,12 @@ delta(PR, normMCC) = 0.042
 -0.310 	 0.345 	 0.200 	  0.303 	 0.145 	 0.042 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.113 	  0.370   0.200  0.412  0.078   0.673 
+
+use case  metric         TPR   TNR        PPV    NPV 
+UC97 MCC_tau = -0.310	0.200	0.412	0.078	0.673 [tau = 0.5]
+UC97 ROC_AUC = 0.200	1.000	1.000	1.000	0.833 [max]
+UC97 PR_AUC  = 0.303	1.000	1.000	1.000	0.833 [max]
+
 
 
 === === === ===
@@ -2063,6 +2645,12 @@ delta(PR, normMCC) = 0.065
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.085 	  0.350   0.150  0.400  0.059   0.653 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC98 MCC_tau = -0.360	0.150	0.400	0.059	0.653 [tau = 0.5]
+UC98 ROC_AUC = 0.150	1.000	1.000	1.000	0.825 [max]
+UC98 PR_AUC  = 0.255	1.000	1.000	1.000	0.825 [max]
+
+
 
 === === === ===
 (k=99)
@@ -2084,6 +2672,12 @@ delta(PR, normMCC) = 0.089
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.056 	  0.330   0.100  0.388  0.039   0.633 
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC99 MCC_tau = -0.410	0.100	0.388	0.039	0.633 [tau = 0.5]
+UC99 ROC_AUC = 0.100	1.000	1.000	1.000	0.816 [max]
+UC99 PR_AUC  = 0.206	1.000	1.000	1.000	0.816 [max]
+
+
 
 === === === ===
 (k=100)
@@ -2104,16 +2698,20 @@ delta(PR, normMCC) = 0.113
 -0.460 	 0.270 	 0.050 	  0.157 	 0.220 	 0.113 
  F1_score accuracy  TPR  TNR    PPV    NPV
 0.028 	  0.310   0.050  0.375  0.020   0.612 
-The  5  use cases with highest (normMCC - ROC AUC) difference: ***
 
+use case  metric         TPR   TNR        PPV    NPV 
+UC100 MCC_tau = -0.460	0.050	0.375	0.020	0.612 [tau = 0.5]
+UC100 ROC_AUC = 0.050	1.000	1.000	1.000	0.808 [max]
+UC100 PR_AUC  = 0.157	1.000	1.000	1.000	0.808 [max]
+
+The  5  use cases with highest (normMCC - ROC AUC) difference:
    use_case listDiffROCAUCnormMCC
 81       81              0.254951
 1         1              0.244949
 80       80              0.242451
 2         2              0.232449
 82       82              0.229956
-
-The  5  use cases with highest (normMCC - PR AUC) difference: ^^^ (incomplete search)
+The  5  use cases with highest (normMCC - PR AUC) difference:
    use_case listDiffPRAUCnormMCC
 50       50            0.5166986
 51       51            0.5112875

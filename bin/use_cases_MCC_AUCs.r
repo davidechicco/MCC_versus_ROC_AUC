@@ -120,8 +120,8 @@ rates_multi_thresholds <- function(actual_labels, predicted_values)
 ONE <- 1
 ZERO <- 0
 
-number_of_ones <-   90
-number_of_zeros <- 10
+number_of_ones <-   50
+number_of_zeros <- 50
 
 cat("  number_of_ones ", number_of_ones, "\n", sep="")
 cat("  number_of_zeros ", number_of_zeros, "\n", sep="")
@@ -160,17 +160,22 @@ for(k in 1:total_number_of_samples) {
    statDesResults <- stat.desc(theseRatesVectors)
    someStatResults <- (statDesResults)[c("mean", "std.dev", "median", "min", "max"),]
    print(dec_three(someStatResults))
-   cat("\n")
-    
+   cat("\n")    
    
     cf_output <- confusion_matrix_rates(ground_truth, predictor, " ")
     
-    thisDiffROCAUCnormMCC <- cf_output$"diffROCAUCnormMCC"
-    thisDiffPRAUCnormMCC <- cf_output$"diffPRAUCnormMCC"
+    cat("\nuse case  metric         TPR   TNR        PPV    NPV \n", sep="")
     
+    cat("UC", k, " MCC_tau = ", dec_three(cf_output$"MCC"), "\t",   dec_three(cf_output$"TP_rate"), "\t",  dec_three(cf_output$"TN_rate"), "\t",  dec_three(cf_output$"PPV"), "\t",  dec_three(cf_output$"NPV"), " [tau = 0.5]\n", sep="")
     
-    listDiffROCAUCnormMCC[k] <- thisDiffROCAUCnormMCC
-    listDiffPRAUCnormMCC[k] <- thisDiffPRAUCnormMCC
+    cat("UC", k, " ROC_AUC = ", dec_three(cf_output$"ROC_AUC"), "\t",   dec_three(someStatResults["max",]$"TP_rates"), "\t",  dec_three(someStatResults["max",]$"TN_rates"), "\t",  dec_three(someStatResults["max",]$"PPV_rates"), "\t",  dec_three(someStatResults["max",]$"NPV_rates"), " [max]\n", sep="")
+        
+    cat("UC", k, " PR_AUC  = ", dec_three(cf_output$"PR_AUC"), "\t",   dec_three(someStatResults["max",]$"TP_rates"), "\t",  dec_three(someStatResults["max",]$"TN_rates"), "\t",  dec_three(someStatResults["max",]$"PPV_rates"), "\t",  dec_three(someStatResults["max",]$"NPV_rates"), " [max]\n", sep="")
+
+    cat("\n")
+    
+    listDiffROCAUCnormMCC[k] <-  cf_output$"diffROCAUCnormMCC"
+    listDiffPRAUCnormMCC[k] <- cf_output$"diffPRAUCnormMCC"
     
     predictor <- c(predictor[-1], predictor[1])
 }

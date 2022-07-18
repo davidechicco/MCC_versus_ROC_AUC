@@ -6,7 +6,7 @@ new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"
 if(length(new.packages)) install.packages(new.packages)
 
 library("easypackages")
-libraries(new.packages)
+libraries(list.of.packages)
 # script_dir <- dirname(sys.frame(1)$ofile)
 # cat("script_dir: ", script_dir, "\n", sep="")
 source("utils.r")
@@ -23,10 +23,9 @@ Brier_score_function <- function(actual_labels, predicted_values)
 }
 
 # regression rates
-regression_rates <- function(actual_labels, predicted_values, keyword)
+regression_rates <- function(actual_labels, predicted_values, keyword, verbose)
 {
 
-    library("Metrics")
     thisRMSE <- rmse(actual_labels, predicted_values)
     thisMAE <- mae(actual_labels, predicted_values)
     thisMSE <- mse(actual_labels, predicted_values)
@@ -35,10 +34,10 @@ regression_rates <- function(actual_labels, predicted_values, keyword)
     thisR2score <- MLmetrics::R2_Score(predicted_values, actual_labels) # (predicted_values, actual_labels) # notice the swap
     # R2_Score(y_pred, y_true)
 
-    cat("  @@@ regression :: \t R^2  \t MAE \t MSE  \t SMAPE \t RMSE \n")
-    cat("  @@@ regression :: \t ", dec_three(thisR2score), " \t ", dec_three(thisMAE), " \t ", dec_three(thisMSE),  " \t ", dec_three(thisSMAPE),  " \t ", dec_three(thisRMSE)," \n", sep="")
+    if(verbose) cat("  @@@ regression :: \t R^2  \t MAE \t MSE  \t SMAPE \t RMSE \n")
+    if(verbose) cat("  @@@ regression :: \t ", dec_three(thisR2score), " \t ", dec_three(thisMAE), " \t ", dec_three(thisMSE),  " \t ", dec_three(thisSMAPE),  " \t ", dec_three(thisRMSE)," \n", sep="")
     
-    cat("\t(R^2: best value = +1, worst value= -infinity)\n\n\n")
+    if(verbose) cat("\t(R^2: best value = +1, worst value= -infinity)\n\n\n")
     
     NUM_METRICS <- 5
     outputDataframe <- matrix(ncol=NUM_METRICS, nrow=1)
@@ -47,20 +46,19 @@ regression_rates <- function(actual_labels, predicted_values, keyword)
     outputDataframe[,3] <- thisMSE
     outputDataframe[,4] <- thisSMAPE
     outputDataframe[,5] <- thisRMSE
-    colnames(outputDataframe) <- c( "R^2", "MAE", "MSE", "SMAPE", "RMSE")
+    if(verbose) colnames(outputDataframe) <- c( "R^2", "MAE", "MSE", "SMAPE", "RMSE")
 
     return(outputDataframe)
 }
 
 
 # Confusion matrix rates
-confusion_matrix_rates <- function (actual_labels, predicted_values, keyword)
+confusion_matrix_rates <- function (actual_labels, predicted_values, keyword, verbose)
 {
 
     fg_test <- predicted_values[actual_labels==1]
     bg_test <- predicted_values[actual_labels==0]
 
-    library("PRROC")
     pr_curve_test <- pr.curve(scores.class0 = fg_test, scores.class1 = bg_test, curve = F)
     # plot(pr_curve_test)
     # print(pr_curve_test)
@@ -138,24 +136,26 @@ confusion_matrix_rates <- function (actual_labels, predicted_values, keyword)
   diffROCAUCnormMCC <- abs(normMCC - roc_auc)
   diffPRAUCnormMCC <- abs(normMCC - prc_auc)
   
-  cat("delta(ROC, normMCC) = ", dec_three(diffROCAUCnormMCC), "\n", sep="")
-  cat("delta(PR, normMCC) = ", dec_three(diffPRAUCnormMCC), "\n\n", sep="")
-  
-  cat(" MCC \t normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)\n")
-  cat(dec_three(thisMcc), " \t ",  sep="")
-  cat(dec_three(normMCC), " \t ",  sep="")
-  cat(dec_three(roc_auc), " \t  ",  sep="")
-  cat(dec_three(prc_auc), " \t ",  sep="")
-  cat(dec_three(diffROCAUCnormMCC), " \t ",  sep="")
-  cat(dec_three(diffPRAUCnormMCC), " \n ",  sep="")
-  
-  cat("F1_score accuracy  TPR  TNR    PPV    NPV\n")
-  cat(dec_three(f1_score), " \t  ",  sep="")
-  cat(dec_three(accuracy), "   ",  sep="")
-  cat(dec_three(recall), "  ",  sep="")
-  cat(dec_three(specificity),  "  ",  sep="")
-  cat(dec_three(PPV), "   ",  sep="")
-  cat(dec_three(NPV),  " \n",  sep="")
+  if(verbose)  {
+    cat("delta(ROC, normMCC) = ", dec_three(diffROCAUCnormMCC), "\n", sep="")
+    cat("delta(PR, normMCC) = ", dec_three(diffPRAUCnormMCC), "\n\n", sep="")
+    
+    cat(" MCC \t normMCC  ROC AUC  PR AUC delta(ROC, normMCC) delta(PR, normMCC)\n")
+    cat(dec_three(thisMcc), " \t ",  sep="")
+    cat(dec_three(normMCC), " \t ",  sep="")
+    cat(dec_three(roc_auc), " \t  ",  sep="")
+    cat(dec_three(prc_auc), " \t ",  sep="")
+    cat(dec_three(diffROCAUCnormMCC), " \t ",  sep="")
+    cat(dec_three(diffPRAUCnormMCC), " \n ",  sep="")
+    
+    cat("F1_score accuracy  TPR  TNR    PPV    NPV\n")
+    cat(dec_three(f1_score), " \t  ",  sep="")
+    cat(dec_three(accuracy), "   ",  sep="")
+    cat(dec_three(recall), "  ",  sep="")
+    cat(dec_three(specificity),  "  ",  sep="")
+    cat(dec_three(PPV), "   ",  sep="")
+    cat(dec_three(NPV),  " \n",  sep="")
+  }
  
   #  resultsList <- list("MCC" = thisMcc, "F1 score" = f1_score, "accuracy" = accuracy, "TP rate" = recall, "TN rate" = specificity, "PR AUC" = prc_auc, "ROC AUC" = roc_auc)
 

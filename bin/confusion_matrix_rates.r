@@ -1,7 +1,7 @@
 options(stringsAsFactors = FALSE)
 # library("clusterSim")
 
-list.of.packages <- c("easypackages", "PRROC", "e1071", "Metrics", "MLmetrics") #, "rcompanion", "irr")
+list.of.packages <- c("easypackages", "PRROC", "e1071", "Metrics", "MLmetrics", "pROC") #, "rcompanion", "irr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 

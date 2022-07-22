@@ -11,7 +11,6 @@ libraries(list.of.packages)
 # cat("script_dir: ", script_dir, "\n", sep="")
 source("utils.r")
 
-threshold <- 0.5
 
 # Brier score
 Brier_score_function <- function(actual_labels, predicted_values) 
@@ -53,7 +52,7 @@ regression_rates <- function(actual_labels, predicted_values, keyword, verbose)
 
 
 # Confusion matrix rates
-confusion_matrix_rates <- function (actual_labels, predicted_values, keyword, verbose)
+confusion_matrix_rates <- function (actual_labels, predicted_values, keyword, verbose, threshold)
 {
 
     fg_test <- predicted_values[actual_labels==1]
